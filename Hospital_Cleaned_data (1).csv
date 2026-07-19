@@ -1,0 +1,971 @@
+Patient_ID,Name,Age,Gender,Department,Doctor_Name,Admission_Date,Discharge_Date,Diagnosis,Treatment_Cost,Payment_Mode,Room_Type,City,Feedback,Length of stay,Month
+P0001,Pooja,48.0,Male,Orthopedics,Dr. Patil,2024-04-09,2024-04-13,Cancer,0,UPI ,General,Kolhapur,Average,4,2024-04
+P0002,Rahul,46.0,Female,Cardiology,Dr. Singh,2024-08-09,2024-08-17,Heart Disease,89123,Cash,Private,Aurangabad,Average,8,2024-08
+P0003,Pooja,46.0,Male,Neurology,Dr. Khan,2024-09-29,2024-10-08,Skin Infection,0,UPI,Generel,Nagpur,Good,9,2024-09
+P0004,Rohan,52.0,Female,Cardiology,Dr. Rao,2024-06-08,2024-06-17,Cancer,14448,Insurance,Private,Nagpur,Good,9,2024-06
+P0005,Kiran,56.0,Male,Oncology,Dr. Patil,2024-06-13,2024-06-14,Cancer,84306,UPI,Private,Solapur,Average,1,2024-06
+P0006,Vikas,46.0,Male,Orthopedics,Dr. Mehta,2024-03-12,2024-03-21,Cancer,10845,Cash,General,Solapur,Average,9,2024-03
+P0007,Priya,46.0,Female,Neurology,Dr. Patil,2024-09-28,2024-10-01,Cancer,0,Insurance,General,Mumbai,Average,3,2024-09
+P0008,Anjali,46.0,Female,Orthopedics,Dr. Mehta,2024-05-29,2024-06-03,Cancer,24856,UPI ,semi,Nashik,Good,5,2024-05
+P0009,Vikas,33.0,Female,Cardiology,Dr. Patil,2024-04-18,2024-04-19,Fever,999999,Insurance,Generel,Kolhapur,Average,1,2024-04
+P0010,Sneha,2.0,Male,Neurology,Dr. Rao,2024-02-27,2024-03-02,Migraine,999999,INSURANCE,Private,Nashik,Good,4,2024-02
+P0011,Kiran,37.0,Male,Pediatrics,Dr. Sharma,2024-06-09,2024-06-11,Fever,999999,UPI ,semi,Kolhapur,Average,2,2024-06
+P0012,Vikas,46.0,Female,Dermatology,Dr. Mehta,2024-06-20,2024-06-23,Skin Infection,0,Cashh,semi,Kolhapur,Average,3,2024-06
+P0013,Rohan,46.0,Female,Oncology,Dr. Patil,2024-06-18,2024-06-21,Asthma,126572,INSURANCE,semi,Kolhapur,Poor,3,2024-06
+P0014,Rahul,46.0,Female,Dermatology,Dr. Mehta,2024-09-18,2024-09-25,Cancer,0,Cash,Semi,Nashik,Average,7,2024-09
+P0015,Priya,46.0,Female,Cardiology,Dr. Patil,2024-08-24,2024-08-31,Migraine,999999,INSURANCE,Generel,Nagpur,Average,7,2024-08
+P0016,Kiran,34.0,Male,Neurology,Dr. Sharma,2024-06-15,2024-06-21,Fracture,0,UPI,Generel,Aurangabad,Good,6,2024-06
+P0017,Kiran,14.0,Female,Orthopedics,Dr. Rao,2024-08-25,2024-09-03,Fracture,999999,UPI,Private,Aurangabad,Poor,9,2024-08
+P0018,Rohan,46.0,Female,Pediatrics,Dr. Sharma,2024-04-21,2024-04-30,Heart Disease,0,Insurance,Semi,Mumbai,Good,9,2024-04
+P0019,Sneha,81.0,Female,Pediatrics,Dr. Sharma,2024-01-19,2024-01-26,Heart Disease,999999,Insurance,semi,Kolhapur,Good,7,2024-01
+P0020,Kiran,46.0,Female,Cardiology,Dr. Patil,2024-01-10,2024-01-14,Heart Disease,141462,Cash,Generel,Nashik,Average,4,2024-01
+P0021,Priya,25.0,Female,Oncology,Dr. Singh,2024-08-07,2024-08-09,Cancer,97014,UPI ,Generel,Solapur,Good,2,2024-08
+P0022,Rohan,46.0,Female,Neurology,Dr. Sharma,2024-08-27,2024-09-06,Fever,999999,UPI,Generel,Nashik,Average,10,2024-08
+P0023,Vikas,46.0,Female,Orthopedics,Dr. Mehta,2024-10-10,2024-10-11,Heart Disease,131690,UPI,General,Kolhapur,Good,1,2024-10
+P0024,Amit,60.0,Male,Orthopedics,Dr. Singh,2024-02-10,2024-02-18,Cancer,112543,Cash,Generel,Kolhapur,Average,8,2024-02
+P0025,Rohan,17.0,Female,Cardiology,Dr. Patil,2024-07-23,2024-07-25,Fracture,0,Cash,General,Aurangabad,Average,2,2024-07
+P0026,Kiran,62.0,Female,Cardiology,Dr. Sharma,2024-05-20,2024-05-21,Cancer,999999,UPI,General,Aurangabad,Poor,1,2024-05
+P0027,Sneha,46.0,Female,Dermatology,Dr. Khan,2024-04-18,2024-04-25,Fracture,62210,Cashh,General,Pune,Good,7,2024-04
+P0028,Priya,46.0,Male,Cardiology,Dr. Khan,2024-04-23,2024-04-29,Cancer,999999,Cashh,Semi,Solapur,Good,6,2024-04
+P0029,Priya,63.0,Female,Neurology,Dr. Rao,2024-06-26,2024-07-03,Cancer,999999,Cashh,Semi,Solapur,Average,7,2024-06
+P0030,Rohan,46.0,Male,Cardiology,Dr. Khan,2024-07-13,2024-07-19,Cancer,999999,Cash,General,Solapur,Average,6,2024-07
+P0031,Amit,84.0,Female,Neurology,Dr. Khan,2024-09-30,2024-10-03,Asthma,999999,Insurance,Semi,Nashik,Good,3,2024-09
+P0032,Anjali,46.0,Male,Neurology,Dr. Sharma,2024-04-06,2024-04-10,Skin Infection,0,INSURANCE,Generel,Pune,Poor,4,2024-04
+P0033,Rohan,35.0,Female,Neurology,Dr. Mehta,2024-10-10,2024-10-12,Cancer,0,Cashh,Generel,Mumbai,Good,2,2024-10
+P0034,Priya,46.0,Female,Cardiology,Dr. Rao,2024-02-13,2024-02-22,Heart Disease,999999,Cash,Generel,Pune,Poor,9,2024-02
+P0035,Rohan,25.0,Male,Dermatology,Dr. Sharma,2024-05-17,2024-05-25,Asthma,100359,Cashh,Semi,Nashik,Average,8,2024-05
+P0036,Sneha,46.0,Male,Neurology,Dr. Rao,2024-05-01,2024-05-10,Cancer,999999,Cashh,General,Mumbai,Average,9,2024-05
+P0037,Anjali,46.0,Female,Pediatrics,Dr. Rao,2024-05-01,2024-05-11,Cancer,0,Insurance,Generel,Solapur,Good,10,2024-05
+P0038,Amit,5.0,Female,Oncology,Dr. Patil,2024-08-16,2024-08-26,Heart Disease,999999,INSURANCE,Semi,Kolhapur,Good,10,2024-08
+P0039,Neha,67.0,Female,Orthopedics,Dr. Mehta,2024-01-28,2024-02-03,Migraine,24241,Cashh,Private,Pune,Average,6,2024-01
+P0040,Priya,29.0,Male,Neurology,Dr. Khan,2024-06-18,2024-06-27,Cancer,999999,INSURANCE,Semi,Mumbai,Poor,9,2024-06
+P0041,Amit,28.0,Female,Cardiology,Dr. Mehta,2024-01-04,2024-01-11,Fracture,29231,Cash,semi,Aurangabad,Good,7,2024-01
+P0042,Rahul,12.0,Female,Orthopedics,Dr. Sharma,2024-08-02,2024-08-06,Cancer,999999,Insurance,semi,Solapur,Average,4,2024-08
+P0043,Rohan,46.0,Female,Orthopedics,Dr. Singh,2024-03-10,2024-03-12,Diabetes,0,UPI ,Generel,Kolhapur,Average,2,2024-03
+P0044,Vikas,4.0,Female,Oncology,Dr. Rao,2024-07-19,2024-07-23,Cancer,41640,Cash,Semi,Pune,Good,4,2024-07
+P0045,Priya,50.0,Male,Dermatology,Dr. Patil,2024-05-10,2024-05-12,Diabetes,132161,Cash,Generel,Nashik,Good,2,2024-05
+P0046,Neha,11.0,Female,Pediatrics,Dr. Mehta,2024-10-19,2024-10-22,Skin Infection,999999,Cash,Private,Aurangabad,Average,3,2024-10
+P0047,Anjali,46.0,Male,Oncology,Dr. Patil,2024-08-25,2024-09-01,Cancer,149243,Insurance,General,Mumbai,Poor,7,2024-08
+P0048,Rahul,46.0,Female,Cardiology,Dr. Singh,2024-01-12,2024-01-20,Cancer,999999,Cashh,General,Solapur,Good,8,2024-01
+P0049,Neha,46.0,Female,Dermatology,Dr. Sharma,2024-09-22,2024-10-02,Fracture,999999,INSURANCE,Private,Kolhapur,Average,10,2024-09
+P0050,Pooja,46.0,Female,Oncology,Dr. Singh,2024-06-16,2024-06-21,Cancer,0,Insurance,Generel,Nagpur,Poor,5,2024-06
+P0051,Kiran,46.0,Male,Neurology,Dr. Sharma,2024-04-17,2024-04-18,Cancer,0,INSURANCE,semi,Aurangabad,Average,1,2024-04
+P0052,Anjali,19.0,Male,Orthopedics,Dr. Khan,2024-10-12,2024-10-17,Cancer,0,INSURANCE,Private,Nashik,Average,5,2024-10
+P0053,Rahul,30.0,Male,Orthopedics,Dr. Mehta,2024-05-13,2024-05-22,Asthma,0,INSURANCE,Semi,Nashik,Good,9,2024-05
+P0054,Priya,46.0,Male,Oncology,Dr. Patil,2024-07-10,2024-07-11,Cancer,0,Insurance,Generel,Mumbai,Average,1,2024-07
+P0055,Sneha,31.0,Female,Oncology,Dr. Sharma,2024-01-01,2024-01-08,Cancer,999999,UPI ,semi,Kolhapur,Average,7,2024-01
+P0056,Pooja,19.0,Female,Oncology,Dr. Mehta,2024-07-20,2024-07-27,Skin Infection,999999,Cash,Semi,Aurangabad,Average,7,2024-07
+P0057,Vikas,46.0,Female,Orthopedics,Dr. Rao,2024-03-21,2024-03-25,Cancer,55190,Cashh,General,Solapur,Average,4,2024-03
+P0058,Amit,16.0,Female,Dermatology,Dr. Patil,2024-07-18,2024-07-26,Asthma,0,INSURANCE,Semi,Solapur,Good,8,2024-07
+P0059,Priya,46.0,Male,Pediatrics,Dr. Sharma,2024-03-01,2024-03-06,Cancer,999999,Cash,Private,Solapur,Good,5,2024-03
+P0060,Rahul,52.0,Female,Pediatrics,Dr. Mehta,2024-07-24,2024-08-01,Cancer,50616,Cash,semi,Pune,Average,8,2024-07
+P0061,Priya,46.0,Male,Neurology,Dr. Singh,2024-06-27,2024-07-03,Cancer,0,INSURANCE,Private,Solapur,Average,6,2024-06
+P0062,Priya,26.0,Male,Pediatrics,Dr. Mehta,2024-09-27,2024-10-06,Heart Disease,999999,Cashh,Generel,Aurangabad,Poor,9,2024-09
+P0063,Pooja,46.0,Male,Pediatrics,Dr. Patil,2024-10-18,2024-10-24,Cancer,0,Cash,General,Aurangabad,Average,6,2024-10
+P0064,Anjali,3.0,Female,Orthopedics,Dr. Rao,2024-05-26,2024-06-05,Cancer,89495,Cashh,Semi,Nagpur,Good,10,2024-05
+P0065,Anjali,46.0,Female,Cardiology,Dr. Mehta,2024-01-10,2024-01-15,Migraine,74712,Cash,Semi,Solapur,Poor,5,2024-01
+P0066,Priya,85.0,Male,Neurology,Dr. Rao,2024-08-22,2024-08-28,Cancer,119194,Cash,semi,Kolhapur,Good,6,2024-08
+P0067,Vikas,88.0,Female,Dermatology,Dr. Sharma,2024-10-14,2024-10-16,Cancer,72028,UPI,General,Nashik,Average,2,2024-10
+P0068,Vikas,46.0,Male,Cardiology,Dr. Rao,2024-06-11,2024-06-14,Skin Infection,37435,UPI ,General,Nagpur,Average,3,2024-06
+P0069,Pooja,84.0,Female,Orthopedics,Dr. Patil,2024-08-01,2024-08-03,Skin Infection,999999,INSURANCE,Semi,Kolhapur,Good,2,2024-08
+P0070,Amit,46.0,Male,Neurology,Dr. Singh,2024-01-02,2024-01-03,Fracture,140837,UPI ,Private,Nashik,Average,1,2024-01
+P0071,Pooja,69.0,Male,Orthopedics,Dr. Khan,2024-09-25,2024-09-27,Cancer,0,UPI,semi,Nagpur,Poor,2,2024-09
+P0072,Neha,46.0,Female,Cardiology,Dr. Singh,2024-05-08,2024-05-14,Cancer,0,UPI ,General,Aurangabad,Average,6,2024-05
+P0073,Rohan,46.0,Male,Dermatology,Dr. Sharma,2024-07-09,2024-07-12,Fever,0,INSURANCE,Semi,Mumbai,Good,3,2024-07
+P0074,Kiran,77.0,Female,Dermatology,Dr. Rao,2024-01-26,2024-02-05,Cancer,0,UPI ,Generel,Kolhapur,Good,10,2024-01
+P0075,Anjali,78.0,Female,Oncology,Dr. Rao,2024-10-20,2024-10-25,Cancer,999999,Cashh,semi,Kolhapur,Average,5,2024-10
+P0076,Rahul,46.0,Male,Dermatology,Dr. Singh,2024-09-21,2024-09-26,Migraine,33476,Insurance,Semi,Nashik,Average,5,2024-09
+P0077,Rahul,46.0,Female,Neurology,Dr. Sharma,2024-04-08,2024-04-10,Skin Infection,8141,Insurance,Generel,Nashik,Poor,2,2024-04
+P0078,Priya,46.0,Male,Cardiology,Dr. Sharma,2024-04-11,2024-04-20,Cancer,999999,INSURANCE,Generel,Nagpur,Good,9,2024-04
+P0079,Rohan,46.0,Male,Dermatology,Dr. Patil,2024-05-10,2024-05-12,Cancer,98555,UPI ,Semi,Pune,Average,2,2024-05
+P0080,Priya,46.0,Male,Dermatology,Dr. Khan,2024-09-17,2024-09-27,Cancer,102482,INSURANCE,Generel,Nagpur,Good,10,2024-09
+P0081,Priya,46.0,Female,Cardiology,Dr. Rao,2024-02-29,2024-03-01,Cancer,0,UPI,semi,Nashik,Average,1,2024-02
+P0082,Sneha,46.0,Female,Neurology,Dr. Rao,2024-03-06,2024-03-08,Cancer,0,UPI ,General,Aurangabad,Poor,2,2024-03
+P0083,Amit,25.0,Female,Dermatology,Dr. Sharma,2024-07-18,2024-07-19,Cancer,0,INSURANCE,Private,Nagpur,Good,1,2024-07
+P0084,Anjali,46.0,Male,Neurology,Dr. Sharma,2024-09-11,2024-09-14,Migraine,0,INSURANCE,Semi,Nagpur,Average,3,2024-09
+P0085,Amit,69.0,Female,Orthopedics,Dr. Patil,2024-05-18,2024-05-21,Cancer,123455,Cashh,Generel,Mumbai,Good,3,2024-05
+P0086,Kiran,46.0,Male,Orthopedics,Dr. Rao,2024-09-20,2024-09-29,Fracture,999999,Insurance,Generel,Nagpur,Good,9,2024-09
+P0087,Pooja,30.0,Male,Pediatrics,Dr. Khan,2024-03-16,2024-03-20,Cancer,0,Cashh,Private,Solapur,Good,4,2024-03
+P0088,Pooja,25.0,Male,Orthopedics,Dr. Rao,2024-06-26,2024-06-28,Migraine,999999,UPI,General,Solapur,Good,2,2024-06
+P0089,Rahul,13.0,Male,Dermatology,Dr. Rao,2024-03-21,2024-03-27,Cancer,0,UPI ,Private,Nagpur,Poor,6,2024-03
+P0090,Priya,43.0,Male,Oncology,Dr. Mehta,2024-01-09,2024-01-18,Migraine,0,UPI ,General,Kolhapur,Average,9,2024-01
+P0091,Pooja,46.0,Female,Cardiology,Dr. Sharma,2024-05-17,2024-05-24,Fracture,999999,Insurance,General,Nagpur,Average,7,2024-05
+P0092,Priya,35.0,Female,Neurology,Dr. Sharma,2024-08-23,2024-08-28,Cancer,0,INSURANCE,Private,Kolhapur,Good,5,2024-08
+P0093,Vikas,60.0,Female,Cardiology,Dr. Sharma,2024-03-10,2024-03-15,Fever,132524,Cash,General,Solapur,Average,5,2024-03
+P0094,Sneha,6.0,Male,Oncology,Dr. Mehta,2024-10-26,2024-10-28,Heart Disease,0,Cash,General,Aurangabad,Good,2,2024-10
+P0095,Anjali,19.0,Male,Orthopedics,Dr. Sharma,2024-10-21,2024-10-31,Asthma,0,UPI,General,Pune,Good,10,2024-10
+P0096,Priya,18.0,Male,Cardiology,Dr. Rao,2024-09-19,2024-09-21,Diabetes,999999,UPI ,Private,Pune,Average,2,2024-09
+P0097,Rohan,46.0,Female,Neurology,Dr. Sharma,2024-06-29,2024-06-30,Migraine,0,Cash,General,Nashik,Good,1,2024-06
+P0098,Pooja,69.0,Male,Pediatrics,Dr. Rao,2024-01-24,2024-02-02,Cancer,999999,UPI,General,Mumbai,Good,9,2024-01
+P0099,Priya,46.0,Male,Cardiology,Dr. Mehta,2024-01-30,2024-02-08,Asthma,999999,Cashh,semi,Nashik,Average,9,2024-01
+P0100,Rohan,46.0,Female,Cardiology,Dr. Patil,2024-06-30,2024-07-02,Heart Disease,116752,INSURANCE,semi,Pune,Good,2,2024-06
+P0101,Priya,39.0,Female,Dermatology,Dr. Rao,2024-07-27,2024-07-30,Cancer,43258,Insurance,Semi,Aurangabad,Average,3,2024-07
+P0102,Vikas,16.0,Female,Neurology,Dr. Patil,2024-01-02,2024-01-07,Cancer,131507,Cashh,Semi,Mumbai,Good,5,2024-01
+P0103,Kiran,36.0,Female,Pediatrics,Dr. Sharma,2024-06-30,2024-07-01,Fever,999999,Insurance,Private,Solapur,Good,1,2024-06
+P0104,Rahul,46.0,Female,Cardiology,Dr. Sharma,2024-03-05,2024-03-10,Cancer,44464,INSURANCE,semi,Nashik,Average,5,2024-03
+P0105,Rahul,46.0,Male,Cardiology,Dr. Rao,2024-08-10,2024-08-17,Cancer,0,INSURANCE,Private,Aurangabad,Good,7,2024-08
+P0106,Anjali,46.0,Male,Pediatrics,Dr. Khan,2024-10-23,2024-11-02,Cancer,19269,Cash,Semi,Nagpur,Poor,10,2024-10
+P0107,Vikas,67.0,Male,Oncology,Dr. Patil,2024-03-10,2024-03-17,Cancer,130106,Cashh,semi,Pune,Average,7,2024-03
+P0108,Rahul,46.0,Female,Cardiology,Dr. Sharma,2024-04-01,2024-04-11,Cancer,147145,Insurance,semi,Nagpur,Average,10,2024-04
+P0109,Neha,46.0,Female,Neurology,Dr. Singh,2024-01-05,2024-01-10,Fever,999999,Insurance,semi,Aurangabad,Good,5,2024-01
+P0110,Kiran,32.0,Male,Pediatrics,Dr. Singh,2024-06-19,2024-06-27,Fracture,999999,INSURANCE,Generel,Aurangabad,Good,8,2024-06
+P0111,Kiran,46.0,Male,Neurology,Dr. Khan,2024-03-22,2024-03-29,Migraine,0,Cashh,Private,Nagpur,Good,7,2024-03
+P0112,Rohan,46.0,Female,Pediatrics,Dr. Sharma,2024-05-03,2024-05-10,Cancer,0,UPI,semi,Solapur,Average,7,2024-05
+P0113,Neha,27.0,Male,Pediatrics,Dr. Khan,2024-01-05,2024-01-08,Cancer,82530,UPI ,Private,Aurangabad,Good,3,2024-01
+P0114,Neha,46.0,Male,Cardiology,Dr. Sharma,2024-02-06,2024-02-07,Diabetes,0,Cashh,General,Nashik,Good,1,2024-02
+P0115,Sneha,46.0,Male,Cardiology,Dr. Rao,2024-06-29,2024-07-04,Fever,23565,Cash,Semi,Pune,Poor,5,2024-06
+P0116,Amit,46.0,Male,Pediatrics,Dr. Patil,2024-06-04,2024-06-06,Cancer,999999,UPI ,Semi,Pune,Average,2,2024-06
+P0117,Amit,23.0,Male,Cardiology,Dr. Singh,2024-06-29,2024-07-02,Skin Infection,0,UPI,General,Pune,Average,3,2024-06
+P0118,Kiran,46.0,Female,Cardiology,Dr. Khan,2024-01-11,2024-01-16,Cancer,0,UPI ,semi,Mumbai,Good,5,2024-01
+P0119,Pooja,31.0,Female,Oncology,Dr. Khan,2024-03-02,2024-03-12,Cancer,73224,UPI ,semi,Pune,Average,10,2024-03
+P0120,Amit,46.0,Male,Orthopedics,Dr. Mehta,2024-01-22,2024-01-25,Cancer,66502,INSURANCE,Private,Mumbai,Good,3,2024-01
+P0121,Priya,33.0,Male,Cardiology,Dr. Singh,2024-03-28,2024-03-31,Cancer,999999,INSURANCE,General,Nashik,Good,3,2024-03
+P0122,Sneha,68.0,Male,Oncology,Dr. Singh,2024-10-03,2024-10-13,Cancer,0,INSURANCE,Private,Kolhapur,Average,10,2024-10
+P0123,Anjali,46.0,Male,Dermatology,Dr. Patil,2024-01-27,2024-01-29,Cancer,0,INSURANCE,General,Mumbai,Average,2,2024-01
+P0124,Rohan,37.0,Female,Oncology,Dr. Patil,2024-08-08,2024-08-09,Cancer,42816,UPI,semi,Nagpur,Average,1,2024-08
+P0125,Rohan,46.0,Female,Cardiology,Dr. Singh,2024-05-23,2024-05-27,Skin Infection,999999,UPI,semi,Mumbai,Average,4,2024-05
+P0126,Pooja,46.0,Female,Orthopedics,Dr. Khan,2024-04-19,2024-04-27,Cancer,0,UPI,semi,Aurangabad,Average,8,2024-04
+P0127,Rahul,53.0,Female,Dermatology,Dr. Khan,2024-01-07,2024-01-16,Cancer,0,UPI ,Private,Mumbai,Good,9,2024-01
+P0128,Neha,48.0,Female,Cardiology,Dr. Sharma,2024-10-01,2024-10-08,Cancer,131490,UPI,Generel,Pune,Average,7,2024-10
+P0129,Neha,4.0,Female,Oncology,Dr. Sharma,2024-02-03,2024-02-06,Cancer,0,Cash,Semi,Kolhapur,Poor,3,2024-02
+P0130,Priya,29.0,Female,Pediatrics,Dr. Patil,2024-09-27,2024-09-28,Cancer,999999,INSURANCE,semi,Solapur,Poor,1,2024-09
+P0131,Anjali,37.0,Male,Oncology,Dr. Khan,2024-03-05,2024-03-15,Fever,0,UPI ,General,Nashik,Average,10,2024-03
+P0132,Kiran,4.0,Female,Dermatology,Dr. Khan,2024-03-11,2024-03-21,Fever,0,Cash,Generel,Solapur,Average,10,2024-03
+P0133,Amit,81.0,Male,Cardiology,Dr. Khan,2024-03-14,2024-03-21,Fever,0,Cash,General,Kolhapur,Average,7,2024-03
+P0134,Vikas,46.0,Female,Neurology,Dr. Rao,2024-07-19,2024-07-22,Heart Disease,30879,Insurance,Generel,Pune,Good,3,2024-07
+P0135,Neha,46.0,Female,Pediatrics,Dr. Patil,2024-10-21,2024-10-29,Skin Infection,0,UPI,Semi,Nagpur,Good,8,2024-10
+P0136,Priya,55.0,Female,Dermatology,Dr. Singh,2024-01-21,2024-01-29,Migraine,59685,UPI,Private,Aurangabad,Average,8,2024-01
+P0137,Rahul,78.0,Female,Dermatology,Dr. Singh,2024-04-25,2024-04-28,Cancer,109134,Cash,Generel,Nashik,Average,3,2024-04
+P0138,Neha,46.0,Female,Neurology,Dr. Rao,2024-03-12,2024-03-22,Cancer,999999,UPI,Generel,Solapur,Average,10,2024-03
+P0139,Kiran,44.0,Female,Oncology,Dr. Singh,2024-10-25,2024-11-01,Skin Infection,67917,Cash,General,Pune,Good,7,2024-10
+P0140,Priya,46.0,Female,Dermatology,Dr. Sharma,2024-01-06,2024-01-07,Diabetes,0,INSURANCE,Generel,Nashik,Average,1,2024-01
+P0141,Neha,46.0,Male,Cardiology,Dr. Rao,2024-06-03,2024-06-09,Cancer,999999,Insurance,General,Nagpur,Poor,6,2024-06
+P0142,Pooja,21.0,Male,Dermatology,Dr. Rao,2024-03-23,2024-03-29,Cancer,18578,UPI ,Private,Pune,Average,6,2024-03
+P0143,Sneha,72.0,Female,Dermatology,Dr. Khan,2024-03-30,2024-04-04,Cancer,126083,UPI,semi,Nagpur,Good,5,2024-03
+P0144,Sneha,83.0,Female,Cardiology,Dr. Rao,2024-03-17,2024-03-19,Cancer,0,UPI ,Semi,Pune,Average,2,2024-03
+P0145,Amit,65.0,Female,Dermatology,Dr. Patil,2024-02-02,2024-02-08,Cancer,62863,Insurance,Generel,Nagpur,Poor,6,2024-02
+P0146,Pooja,46.0,Male,Orthopedics,Dr. Khan,2024-03-21,2024-03-24,Cancer,0,UPI,Private,Mumbai,Good,3,2024-03
+P0147,Vikas,68.0,Female,Neurology,Dr. Mehta,2024-02-10,2024-02-19,Cancer,999999,UPI ,Private,Nagpur,Average,9,2024-02
+P0148,Priya,40.0,Female,Orthopedics,Dr. Rao,2024-04-17,2024-04-18,Heart Disease,0,Cashh,Generel,Kolhapur,Average,1,2024-04
+P0149,Anjali,46.0,Male,Cardiology,Dr. Singh,2024-07-03,2024-07-04,Cancer,999999,Cash,Semi,Nashik,Good,1,2024-07
+P0150,Rohan,12.0,Female,Neurology,Dr. Patil,2024-03-13,2024-03-19,Cancer,999999,Cash,Private,Pune,Good,6,2024-03
+P0151,Rahul,69.0,Female,Pediatrics,Dr. Mehta,2024-03-03,2024-03-13,Asthma,137961,UPI,Generel,Solapur,Good,10,2024-03
+P0152,Anjali,46.0,Female,Oncology,Dr. Singh,2024-08-02,2024-08-03,Fever,147260,Cash,Generel,Nashik,Average,1,2024-08
+P0153,Vikas,27.0,Female,Orthopedics,Dr. Singh,2024-05-04,2024-05-09,Cancer,999999,UPI,Generel,Nashik,Good,5,2024-05
+P0154,Rahul,46.0,Female,Orthopedics,Dr. Sharma,2024-04-21,2024-04-30,Cancer,147600,INSURANCE,Private,Nashik,Average,9,2024-04
+P0155,Pooja,46.0,Male,Dermatology,Dr. Mehta,2024-05-21,2024-05-29,Cancer,999999,Cash,Generel,Nashik,Good,8,2024-05
+P0156,Rahul,41.0,Female,Neurology,Dr. Patil,2024-09-14,2024-09-22,Cancer,73422,INSURANCE,General,Nagpur,Good,8,2024-09
+P0157,Anjali,78.0,Female,Dermatology,Dr. Singh,2024-07-14,2024-07-24,Cancer,70455,Cashh,Generel,Nashik,Poor,10,2024-07
+P0158,Pooja,29.0,Female,Dermatology,Dr. Khan,2024-09-30,2024-10-01,Fracture,0,Insurance,semi,Nashik,Average,1,2024-09
+P0159,Priya,61.0,Female,Pediatrics,Dr. Singh,2024-04-14,2024-04-19,Cancer,999999,Insurance,Generel,Kolhapur,Good,5,2024-04
+P0160,Vikas,15.0,Male,Neurology,Dr. Singh,2024-01-09,2024-01-15,Diabetes,999999,Insurance,Semi,Kolhapur,Average,6,2024-01
+P0161,Vikas,43.0,Male,Oncology,Dr. Patil,2024-09-05,2024-09-14,Cancer,0,Cashh,semi,Aurangabad,Good,9,2024-09
+P0162,Neha,46.0,Female,Cardiology,Dr. Sharma,2024-06-27,2024-06-28,Cancer,16369,UPI ,Generel,Kolhapur,Poor,1,2024-06
+P0163,Neha,85.0,Female,Cardiology,Dr. Rao,2024-05-03,2024-05-07,Heart Disease,61300,INSURANCE,Private,Kolhapur,Average,4,2024-05
+P0164,Neha,2.0,Female,Orthopedics,Dr. Rao,2024-07-15,2024-07-16,Cancer,999999,Cashh,semi,Nashik,Poor,1,2024-07
+P0165,Kiran,4.0,Female,Dermatology,Dr. Khan,2024-04-06,2024-04-13,Fever,61840,Cashh,Generel,Pune,Good,7,2024-04
+P0166,Rahul,60.0,Female,Oncology,Dr. Rao,2024-10-06,2024-10-07,Cancer,90177,Cashh,Semi,Mumbai,Average,1,2024-10
+P0167,Kiran,46.0,Male,Neurology,Dr. Patil,2024-08-24,2024-08-25,Diabetes,50947,Insurance,Semi,Nagpur,Average,1,2024-08
+P0168,Kiran,46.0,Male,Pediatrics,Dr. Mehta,2024-10-03,2024-10-07,Skin Infection,85580,Cash,General,Kolhapur,Poor,4,2024-10
+P0169,Kiran,33.0,Male,Oncology,Dr. Khan,2024-04-09,2024-04-19,Migraine,77169,Cash,Generel,Mumbai,Average,10,2024-04
+P0170,Priya,71.0,Female,Cardiology,Dr. Mehta,2024-10-02,2024-10-12,Cancer,120372,UPI,semi,Mumbai,Average,10,2024-10
+P0171,Anjali,21.0,Male,Pediatrics,Dr. Mehta,2024-05-04,2024-05-10,Cancer,999999,UPI ,Private,Kolhapur,Poor,6,2024-05
+P0172,Priya,46.0,Female,Pediatrics,Dr. Singh,2024-01-02,2024-01-04,Cancer,23075,INSURANCE,Generel,Pune,Average,2,2024-01
+P0173,Priya,46.0,Male,Neurology,Dr. Sharma,2024-03-07,2024-03-10,Cancer,0,UPI ,General,Aurangabad,Good,3,2024-03
+P0174,Anjali,46.0,Female,Cardiology,Dr. Patil,2024-01-19,2024-01-27,Cancer,0,Cash,General,Solapur,Average,8,2024-01
+P0175,Sneha,82.0,Female,Cardiology,Dr. Rao,2024-09-18,2024-09-22,Cancer,0,Cashh,Private,Solapur,Average,4,2024-09
+P0176,Vikas,12.0,Female,Dermatology,Dr. Rao,2024-01-04,2024-01-07,Heart Disease,28785,UPI,General,Nagpur,Good,3,2024-01
+P0177,Amit,10.0,Female,Neurology,Dr. Rao,2024-02-03,2024-02-05,Heart Disease,999999,Cash,Private,Nagpur,Good,2,2024-02
+P0178,Pooja,46.0,Female,Orthopedics,Dr. Sharma,2024-03-01,2024-03-02,Diabetes,999999,INSURANCE,General,Solapur,Average,1,2024-03
+P0179,Rohan,46.0,Female,Pediatrics,Dr. Sharma,2024-05-17,2024-05-18,Diabetes,0,Cashh,Semi,Aurangabad,Average,1,2024-05
+P0180,Anjali,46.0,Female,Orthopedics,Dr. Khan,2024-07-05,2024-07-14,Cancer,6327,Cashh,semi,Pune,Good,9,2024-07
+P0181,Anjali,46.0,Female,Pediatrics,Dr. Singh,2024-04-13,2024-04-16,Migraine,0,Cashh,General,Mumbai,Average,3,2024-04
+P0182,Rohan,26.0,Female,Orthopedics,Dr. Rao,2024-02-17,2024-02-27,Cancer,0,UPI,Semi,Aurangabad,Average,10,2024-02
+P0183,Sneha,46.0,Female,Oncology,Dr. Rao,2024-08-02,2024-08-05,Cancer,0,Cashh,Private,Kolhapur,Poor,3,2024-08
+P0184,Vikas,6.0,Male,Cardiology,Dr. Patil,2024-04-29,2024-05-03,Cancer,0,Insurance,Semi,Mumbai,Good,4,2024-04
+P0185,Amit,87.0,Female,Pediatrics,Dr. Rao,2024-04-10,2024-04-18,Cancer,999999,Insurance,semi,Solapur,Good,8,2024-04
+P0186,Vikas,55.0,Female,Pediatrics,Dr. Mehta,2024-05-03,2024-05-13,Cancer,0,UPI ,Private,Kolhapur,Average,10,2024-05
+P0187,Vikas,46.0,Female,Dermatology,Dr. Sharma,2024-06-15,2024-06-21,Cancer,132694,Cash,Private,Nagpur,Average,6,2024-06
+P0188,Priya,46.0,Male,Cardiology,Dr. Mehta,2024-07-01,2024-07-06,Migraine,115720,UPI,Semi,Nagpur,Good,5,2024-07
+P0189,Neha,46.0,Female,Oncology,Dr. Mehta,2024-02-09,2024-02-10,Heart Disease,999999,UPI,General,Pune,Average,1,2024-02
+P0190,Vikas,65.0,Female,Cardiology,Dr. Khan,2024-10-12,2024-10-14,Cancer,83369,Insurance,Private,Pune,Good,2,2024-10
+P0191,Vikas,85.0,Female,Dermatology,Dr. Singh,2024-10-18,2024-10-21,Cancer,999999,INSURANCE,Private,Solapur,Average,3,2024-10
+P0192,Anjali,46.0,Male,Cardiology,Dr. Rao,2024-10-19,2024-10-25,Fever,0,Insurance,Private,Nashik,Average,6,2024-10
+P0193,Neha,46.0,Female,Neurology,Dr. Khan,2024-07-25,2024-08-01,Cancer,135046,INSURANCE,semi,Nagpur,Average,7,2024-07
+P0194,Anjali,81.0,Female,Neurology,Dr. Patil,2024-08-27,2024-09-05,Cancer,0,INSURANCE,General,Nashik,Average,9,2024-08
+P0195,Amit,43.0,Female,Neurology,Dr. Patil,2024-08-30,2024-09-09,Cancer,0,UPI,General,Solapur,Good,10,2024-08
+P0196,Neha,46.0,Male,Pediatrics,Dr. Patil,2024-05-11,2024-05-20,Cancer,126491,Insurance,Generel,Solapur,Good,9,2024-05
+P0197,Priya,46.0,Male,Orthopedics,Dr. Khan,2024-06-15,2024-06-20,Cancer,999999,INSURANCE,semi,Solapur,Good,5,2024-06
+P0198,Pooja,16.0,Female,Pediatrics,Dr. Sharma,2024-03-02,2024-03-12,Cancer,999999,Cash,Generel,Solapur,Average,10,2024-03
+P0199,Vikas,46.0,Female,Oncology,Dr. Singh,2024-06-20,2024-06-21,Fracture,999999,UPI ,General,Nagpur,Average,1,2024-06
+P0200,Anjali,46.0,Male,Neurology,Dr. Rao,2024-09-13,2024-09-14,Asthma,999999,Cashh,General,Solapur,Poor,1,2024-09
+P0201,Neha,38.0,Female,Dermatology,Dr. Khan,2024-02-27,2024-03-04,Cancer,999999,Cashh,semi,Mumbai,Average,6,2024-02
+P0202,Pooja,46.0,Female,Pediatrics,Dr. Patil,2024-07-22,2024-07-24,Fracture,999999,UPI ,Generel,Aurangabad,Good,2,2024-07
+P0203,Anjali,54.0,Female,Pediatrics,Dr. Patil,2024-07-20,2024-07-26,Migraine,999999,Cash,Semi,Nagpur,Poor,6,2024-07
+P0204,Anjali,46.0,Female,Orthopedics,Dr. Mehta,2024-01-02,2024-01-09,Asthma,0,UPI ,Semi,Nagpur,Poor,7,2024-01
+P0205,Pooja,24.0,Male,Dermatology,Dr. Khan,2024-08-22,2024-09-01,Migraine,999999,INSURANCE,semi,Pune,Average,10,2024-08
+P0206,Anjali,48.0,Female,Dermatology,Dr. Khan,2024-05-02,2024-05-03,Heart Disease,79711,Insurance,Private,Pune,Good,1,2024-05
+P0207,Sneha,47.0,Male,Orthopedics,Dr. Singh,2024-02-02,2024-02-09,Fracture,999999,Insurance,Semi,Solapur,Average,7,2024-02
+P0208,Kiran,46.0,Female,Dermatology,Dr. Rao,2024-03-25,2024-03-29,Cancer,999999,Cash,Private,Pune,Average,4,2024-03
+P0209,Vikas,46.0,Male,Orthopedics,Dr. Rao,2024-10-15,2024-10-16,Cancer,0,Insurance,semi,Pune,Average,1,2024-10
+P0210,Amit,46.0,Female,Orthopedics,Dr. Mehta,2024-03-05,2024-03-09,Cancer,999999,Cashh,General,Kolhapur,Average,4,2024-03
+P0211,Rahul,46.0,Female,Neurology,Dr. Rao,2024-09-01,2024-09-06,Cancer,0,Cash,General,Kolhapur,Average,5,2024-09
+P0212,Rohan,69.0,Female,Oncology,Dr. Rao,2024-08-28,2024-09-07,Heart Disease,140314,Insurance,Semi,Nashik,Average,10,2024-08
+P0213,Rohan,84.0,Female,Dermatology,Dr. Mehta,2024-03-02,2024-03-12,Cancer,94264,Cash,Semi,Solapur,Good,10,2024-03
+P0214,Kiran,5.0,Male,Cardiology,Dr. Singh,2024-09-20,2024-09-21,Cancer,133805,UPI,semi,Aurangabad,Average,1,2024-09
+P0215,Vikas,24.0,Female,Oncology,Dr. Patil,2024-03-29,2024-04-06,Cancer,999999,Cashh,General,Nagpur,Average,8,2024-03
+P0216,Rohan,43.0,Female,Oncology,Dr. Rao,2024-04-06,2024-04-14,Heart Disease,999999,Insurance,Generel,Mumbai,Good,8,2024-04
+P0217,Rahul,61.0,Male,Neurology,Dr. Mehta,2024-02-18,2024-02-25,Asthma,55545,Cash,semi,Pune,Good,7,2024-02
+P0218,Pooja,46.0,Female,Oncology,Dr. Sharma,2024-03-26,2024-03-27,Cancer,129840,Cashh,Generel,Aurangabad,Poor,1,2024-03
+P0219,Sneha,33.0,Male,Dermatology,Dr. Mehta,2024-01-28,2024-01-29,Cancer,149042,Cash,General,Pune,Poor,1,2024-01
+P0220,Rahul,36.0,Female,Oncology,Dr. Patil,2024-01-15,2024-01-20,Cancer,0,UPI ,Semi,Kolhapur,Poor,5,2024-01
+P0221,Rohan,21.0,Female,Cardiology,Dr. Sharma,2024-03-16,2024-03-24,Skin Infection,999999,Cashh,Generel,Solapur,Good,8,2024-03
+P0222,Sneha,82.0,Female,Orthopedics,Dr. Singh,2024-05-15,2024-05-22,Cancer,105321,Insurance,Private,Nashik,Poor,7,2024-05
+P0223,Rohan,58.0,Male,Orthopedics,Dr. Rao,2024-07-14,2024-07-24,Cancer,7395,Insurance,Private,Kolhapur,Good,10,2024-07
+P0224,Priya,62.0,Female,Neurology,Dr. Patil,2024-02-25,2024-03-04,Cancer,100858,UPI,Semi,Solapur,Good,8,2024-02
+P0225,Kiran,46.0,Male,Oncology,Dr. Sharma,2024-03-13,2024-03-18,Cancer,0,Cash,Generel,Solapur,Average,5,2024-03
+P0226,Neha,46.0,Female,Oncology,Dr. Patil,2024-02-23,2024-02-25,Asthma,0,Insurance,Private,Pune,Average,2,2024-02
+P0227,Kiran,46.0,Male,Neurology,Dr. Singh,2024-05-21,2024-05-28,Cancer,0,Cash,Generel,Nagpur,Average,7,2024-05
+P0228,Sneha,83.0,Male,Dermatology,Dr. Khan,2024-07-19,2024-07-21,Cancer,24490,INSURANCE,Semi,Aurangabad,Good,2,2024-07
+P0229,Amit,46.0,Female,Dermatology,Dr. Mehta,2024-10-01,2024-10-02,Fracture,32304,Cashh,semi,Aurangabad,Poor,1,2024-10
+P0230,Neha,46.0,Male,Pediatrics,Dr. Sharma,2024-04-07,2024-04-17,Cancer,999999,UPI ,Semi,Solapur,Average,10,2024-04
+P0231,Priya,47.0,Female,Pediatrics,Dr. Mehta,2024-09-08,2024-09-15,Heart Disease,999999,Insurance,semi,Solapur,Good,7,2024-09
+P0232,Pooja,46.0,Female,Neurology,Dr. Patil,2024-09-30,2024-10-01,Migraine,0,INSURANCE,semi,Pune,Good,1,2024-09
+P0233,Kiran,46.0,Male,Cardiology,Dr. Sharma,2024-10-18,2024-10-20,Cancer,999999,Cashh,Generel,Aurangabad,Poor,2,2024-10
+P0234,Neha,46.0,Female,Neurology,Dr. Singh,2024-10-23,2024-10-31,Cancer,21240,INSURANCE,Private,Solapur,Poor,8,2024-10
+P0235,Sneha,25.0,Female,Neurology,Dr. Mehta,2024-09-03,2024-09-05,Cancer,999999,UPI,semi,Mumbai,Good,2,2024-09
+P0236,Vikas,46.0,Female,Dermatology,Dr. Mehta,2024-07-11,2024-07-17,Cancer,77650,UPI ,General,Pune,Good,6,2024-07
+P0237,Priya,76.0,Female,Cardiology,Dr. Khan,2024-01-30,2024-02-08,Cancer,115903,UPI ,semi,Nashik,Average,9,2024-01
+P0238,Kiran,46.0,Female,Neurology,Dr. Khan,2024-03-02,2024-03-12,Cancer,999999,UPI ,General,Nashik,Good,10,2024-03
+P0239,Anjali,46.0,Male,Neurology,Dr. Khan,2024-07-07,2024-07-09,Fracture,999999,UPI ,Private,Pune,Good,2,2024-07
+P0240,Kiran,71.0,Male,Pediatrics,Dr. Khan,2024-09-06,2024-09-14,Cancer,15709,Insurance,semi,Kolhapur,Good,8,2024-09
+P0241,Priya,29.0,Female,Oncology,Dr. Mehta,2024-09-15,2024-09-22,Cancer,0,Cashh,Semi,Kolhapur,Average,7,2024-09
+P0242,Rahul,46.0,Male,Orthopedics,Dr. Singh,2024-10-05,2024-10-08,Diabetes,75683,Insurance,semi,Solapur,Poor,3,2024-10
+P0243,Anjali,46.0,Male,Pediatrics,Dr. Sharma,2024-05-02,2024-05-08,Cancer,0,UPI ,Generel,Kolhapur,Good,6,2024-05
+P0244,Kiran,82.0,Female,Pediatrics,Dr. Patil,2024-06-30,2024-07-06,Asthma,0,UPI,Private,Pune,Poor,6,2024-06
+P0245,Amit,46.0,Female,Oncology,Dr. Singh,2024-02-05,2024-02-12,Fever,30613,Cashh,Semi,Nashik,Average,7,2024-02
+P0246,Amit,56.0,Female,Cardiology,Dr. Singh,2024-01-30,2024-01-31,Cancer,999999,Cashh,Generel,Kolhapur,Average,1,2024-01
+P0247,Vikas,66.0,Female,Neurology,Dr. Khan,2024-01-16,2024-01-18,Fever,38206,Insurance,Private,Nagpur,Good,2,2024-01
+P0248,Priya,46.0,Female,Oncology,Dr. Mehta,2024-07-20,2024-07-30,Diabetes,0,INSURANCE,semi,Solapur,Average,10,2024-07
+P0249,Priya,48.0,Female,Neurology,Dr. Rao,2024-02-26,2024-03-02,Migraine,87344,INSURANCE,semi,Nagpur,Average,5,2024-02
+P0250,Neha,9.0,Male,Oncology,Dr. Khan,2024-06-13,2024-06-23,Fever,999999,Cashh,Semi,Kolhapur,Average,10,2024-06
+P0251,Anjali,68.0,Male,Pediatrics,Dr. Patil,2024-09-23,2024-10-02,Cancer,0,UPI,semi,Nagpur,Good,9,2024-09
+P0252,Sneha,46.0,Female,Pediatrics,Dr. Khan,2024-04-29,2024-05-07,Diabetes,0,Cashh,Private,Pune,Good,8,2024-04
+P0253,Neha,26.0,Male,Orthopedics,Dr. Khan,2024-10-14,2024-10-21,Asthma,77387,INSURANCE,Generel,Nagpur,Poor,7,2024-10
+P0254,Sneha,38.0,Female,Pediatrics,Dr. Rao,2024-08-16,2024-08-19,Cancer,999999,Cashh,Private,Mumbai,Average,3,2024-08
+P0255,Rahul,46.0,Female,Orthopedics,Dr. Sharma,2024-02-13,2024-02-21,Skin Infection,999999,Cash,semi,Aurangabad,Good,8,2024-02
+P0256,Neha,46.0,Male,Oncology,Dr. Sharma,2024-02-04,2024-02-14,Skin Infection,0,Insurance,Semi,Kolhapur,Average,10,2024-02
+P0257,Rohan,54.0,Female,Dermatology,Dr. Sharma,2024-05-21,2024-05-22,Diabetes,0,Insurance,Generel,Solapur,Average,1,2024-05
+P0258,Anjali,46.0,Male,Dermatology,Dr. Khan,2024-04-10,2024-04-12,Cancer,999999,Insurance,semi,Pune,Average,2,2024-04
+P0259,Kiran,5.0,Male,Dermatology,Dr. Mehta,2024-02-29,2024-03-03,Fracture,999999,UPI ,General,Pune,Average,3,2024-02
+P0260,Vikas,3.0,Male,Orthopedics,Dr. Singh,2024-02-10,2024-02-20,Asthma,9382,INSURANCE,Generel,Kolhapur,Average,10,2024-02
+P0261,Amit,40.0,Male,Neurology,Dr. Rao,2024-07-20,2024-07-23,Asthma,60213,Cash,semi,Pune,Good,3,2024-07
+P0262,Amit,78.0,Female,Oncology,Dr. Mehta,2024-10-14,2024-10-19,Cancer,999999,Cashh,Semi,Mumbai,Average,5,2024-10
+P0263,Vikas,46.0,Male,Neurology,Dr. Patil,2024-10-13,2024-10-22,Cancer,999999,UPI,Semi,Pune,Poor,9,2024-10
+P0264,Vikas,45.0,Female,Cardiology,Dr. Singh,2024-10-06,2024-10-16,Skin Infection,999999,Cash,semi,Nagpur,Average,10,2024-10
+P0265,Priya,69.0,Female,Oncology,Dr. Sharma,2024-07-08,2024-07-13,Cancer,0,Cash,General,Aurangabad,Poor,5,2024-07
+P0266,Rahul,77.0,Male,Cardiology,Dr. Rao,2024-01-07,2024-01-17,Cancer,0,UPI,semi,Solapur,Average,10,2024-01
+P0267,Neha,46.0,Female,Neurology,Dr. Singh,2024-04-19,2024-04-22,Cancer,999999,UPI ,General,Pune,Poor,3,2024-04
+P0268,Priya,39.0,Female,Cardiology,Dr. Singh,2024-09-10,2024-09-16,Asthma,0,INSURANCE,semi,Pune,Average,6,2024-09
+P0269,Vikas,41.0,Male,Cardiology,Dr. Sharma,2024-05-10,2024-05-19,Cancer,999999,UPI ,Semi,Nashik,Average,9,2024-05
+P0270,Neha,82.0,Male,Neurology,Dr. Singh,2024-06-08,2024-06-18,Cancer,999999,UPI ,semi,Nagpur,Average,10,2024-06
+P0271,Sneha,15.0,Female,Oncology,Dr. Patil,2024-09-21,2024-09-25,Cancer,0,Cash,semi,Nashik,Poor,4,2024-09
+P0272,Pooja,46.0,Female,Neurology,Dr. Patil,2024-08-20,2024-08-25,Cancer,36885,INSURANCE,Semi,Pune,Good,5,2024-08
+P0273,Anjali,49.0,Male,Pediatrics,Dr. Sharma,2024-08-08,2024-08-18,Skin Infection,0,Cashh,semi,Kolhapur,Average,10,2024-08
+P0274,Vikas,48.0,Male,Orthopedics,Dr. Sharma,2024-10-23,2024-10-24,Fever,0,Cash,semi,Nashik,Poor,1,2024-10
+P0275,Vikas,46.0,Male,Neurology,Dr. Patil,2024-04-24,2024-04-25,Diabetes,999999,UPI,General,Mumbai,Good,1,2024-04
+P0276,Pooja,4.0,Female,Pediatrics,Dr. Khan,2024-01-06,2024-01-09,Diabetes,0,UPI,General,Kolhapur,Average,3,2024-01
+P0277,Neha,46.0,Female,Neurology,Dr. Mehta,2024-02-23,2024-02-26,Cancer,999999,UPI ,Private,Mumbai,Good,3,2024-02
+P0278,Neha,42.0,Male,Dermatology,Dr. Sharma,2024-07-12,2024-07-16,Fever,90087,INSURANCE,General,Nashik,Average,4,2024-07
+P0279,Priya,46.0,Female,Dermatology,Dr. Rao,2024-09-09,2024-09-17,Cancer,0,Cash,Generel,Kolhapur,Average,8,2024-09
+P0280,Anjali,46.0,Male,Oncology,Dr. Patil,2024-10-18,2024-10-24,Heart Disease,83283,Insurance,semi,Nagpur,Average,6,2024-10
+P0281,Rahul,46.0,Male,Neurology,Dr. Singh,2024-07-16,2024-07-25,Cancer,132084,INSURANCE,semi,Kolhapur,Average,9,2024-07
+P0282,Neha,46.0,Male,Oncology,Dr. Rao,2024-08-21,2024-08-29,Skin Infection,44927,UPI,Generel,Kolhapur,Good,8,2024-08
+P0283,Rahul,22.0,Male,Pediatrics,Dr. Singh,2024-10-25,2024-10-30,Asthma,999999,Cash,Semi,Aurangabad,Average,5,2024-10
+P0284,Rahul,46.0,Female,Orthopedics,Dr. Sharma,2024-08-04,2024-08-06,Diabetes,0,INSURANCE,Generel,Solapur,Poor,2,2024-08
+P0285,Anjali,46.0,Female,Orthopedics,Dr. Rao,2024-07-20,2024-07-25,Cancer,999999,INSURANCE,Private,Nagpur,Average,5,2024-07
+P0286,Pooja,46.0,Female,Neurology,Dr. Sharma,2024-06-11,2024-06-16,Cancer,0,Insurance,Private,Pune,Good,5,2024-06
+P0287,Kiran,46.0,Male,Orthopedics,Dr. Patil,2024-10-25,2024-10-31,Heart Disease,999999,Insurance,General,Nashik,Average,6,2024-10
+P0288,Priya,46.0,Male,Dermatology,Dr. Patil,2024-03-23,2024-04-01,Cancer,138337,Cashh,Generel,Pune,Poor,9,2024-03
+P0289,Rahul,57.0,Female,Neurology,Dr. Rao,2024-04-22,2024-04-30,Cancer,0,UPI,Semi,Nagpur,Good,8,2024-04
+P0290,Sneha,70.0,Female,Pediatrics,Dr. Sharma,2024-01-06,2024-01-14,Diabetes,0,Cash,Private,Nagpur,Average,8,2024-01
+P0291,Rahul,76.0,Female,Orthopedics,Dr. Singh,2024-08-20,2024-08-23,Cancer,999999,UPI ,semi,Aurangabad,Average,3,2024-08
+P0292,Rahul,68.0,Female,Dermatology,Dr. Rao,2024-01-02,2024-01-03,Heart Disease,134337,INSURANCE,semi,Nagpur,Poor,1,2024-01
+P0293,Priya,49.0,Female,Neurology,Dr. Patil,2024-06-09,2024-06-19,Cancer,999999,UPI ,Semi,Solapur,Poor,10,2024-06
+P0294,Amit,63.0,Male,Oncology,Dr. Sharma,2024-08-17,2024-08-23,Migraine,85134,Cash,Semi,Pune,Good,6,2024-08
+P0295,Anjali,46.0,Female,Cardiology,Dr. Khan,2024-05-19,2024-05-25,Cancer,999999,Cashh,General,Nagpur,Average,6,2024-05
+P0296,Pooja,15.0,Female,Dermatology,Dr. Rao,2024-10-22,2024-10-24,Cancer,999999,UPI,Private,Nagpur,Average,2,2024-10
+P0297,Rohan,83.0,Female,Pediatrics,Dr. Rao,2024-03-22,2024-03-30,Cancer,999999,Cashh,Generel,Pune,Average,8,2024-03
+P0298,Rohan,54.0,Female,Pediatrics,Dr. Rao,2024-01-28,2024-02-01,Cancer,0,Insurance,Generel,Aurangabad,Average,4,2024-01
+P0299,Rohan,13.0,Female,Cardiology,Dr. Singh,2024-10-21,2024-10-29,Skin Infection,0,UPI ,Private,Aurangabad,Average,8,2024-10
+P0300,Rahul,46.0,Male,Cardiology,Dr. Singh,2024-01-30,2024-02-05,Diabetes,999999,UPI,Semi,Mumbai,Average,6,2024-01
+P0301,Amit,46.0,Male,Cardiology,Dr. Mehta,2024-09-23,2024-09-29,Cancer,57263,Insurance,Generel,Nashik,Good,6,2024-09
+P0302,Rohan,6.0,Female,Oncology,Dr. Patil,2024-03-31,2024-04-08,Fracture,0,UPI ,Generel,Solapur,Average,8,2024-03
+P0303,Amit,34.0,Male,Neurology,Dr. Singh,2024-09-02,2024-09-11,Cancer,125710,Cashh,semi,Pune,Good,9,2024-09
+P0304,Amit,46.0,Male,Orthopedics,Dr. Singh,2024-03-30,2024-04-03,Cancer,0,Cashh,Semi,Solapur,Good,4,2024-03
+P0305,Anjali,68.0,Female,Dermatology,Dr. Khan,2024-01-16,2024-01-24,Cancer,999999,UPI ,Semi,Aurangabad,Average,8,2024-01
+P0306,Rohan,46.0,Female,Orthopedics,Dr. Singh,2024-03-16,2024-03-17,Skin Infection,999999,Cashh,semi,Nashik,Average,1,2024-03
+P0307,Sneha,7.0,Female,Cardiology,Dr. Patil,2024-03-12,2024-03-22,Cancer,0,INSURANCE,semi,Kolhapur,Poor,10,2024-03
+P0308,Priya,52.0,Male,Cardiology,Dr. Sharma,2024-08-03,2024-08-09,Fever,61905,INSURANCE,Semi,Aurangabad,Good,6,2024-08
+P0309,Neha,90.0,Male,Dermatology,Dr. Khan,2024-09-20,2024-09-25,Cancer,82783,INSURANCE,Generel,Aurangabad,Good,5,2024-09
+P0310,Amit,46.0,Female,Oncology,Dr. Mehta,2024-01-27,2024-01-30,Cancer,5247,UPI,Private,Pune,Average,3,2024-01
+P0311,Rohan,24.0,Female,Orthopedics,Dr. Rao,2024-05-01,2024-05-11,Asthma,999999,Insurance,semi,Nagpur,Average,10,2024-05
+P0312,Neha,62.0,Female,Pediatrics,Dr. Mehta,2024-01-06,2024-01-14,Diabetes,0,UPI,Generel,Mumbai,Poor,8,2024-01
+P0313,Kiran,46.0,Male,Pediatrics,Dr. Patil,2024-04-16,2024-04-21,Skin Infection,999999,INSURANCE,General,Nashik,Good,5,2024-04
+P0314,Amit,46.0,Male,Pediatrics,Dr. Khan,2024-05-16,2024-05-22,Fever,0,Insurance,General,Kolhapur,Good,6,2024-05
+P0315,Pooja,46.0,Male,Dermatology,Dr. Singh,2024-06-16,2024-06-20,Skin Infection,999999,UPI,General,Solapur,Good,4,2024-06
+P0316,Sneha,42.0,Male,Cardiology,Dr. Sharma,2024-02-27,2024-03-04,Cancer,0,Cash,Private,Kolhapur,Good,6,2024-02
+P0317,Rahul,46.0,Female,Oncology,Dr. Mehta,2024-09-10,2024-09-14,Heart Disease,0,UPI,semi,Aurangabad,Good,4,2024-09
+P0318,Rohan,46.0,Female,Orthopedics,Dr. Singh,2024-06-30,2024-07-04,Heart Disease,0,Cash,General,Kolhapur,Average,4,2024-06
+P0319,Neha,46.0,Female,Neurology,Dr. Singh,2024-04-25,2024-05-04,Cancer,999999,UPI ,General,Mumbai,Poor,9,2024-04
+P0320,Pooja,46.0,Female,Cardiology,Dr. Sharma,2024-07-30,2024-07-31,Cancer,999999,UPI ,General,Mumbai,Good,1,2024-07
+P0321,Rohan,11.0,Female,Cardiology,Dr. Khan,2024-03-08,2024-03-15,Skin Infection,0,Insurance,Generel,Nagpur,Average,7,2024-03
+P0322,Vikas,46.0,Female,Cardiology,Dr. Mehta,2024-08-19,2024-08-24,Fracture,999999,UPI ,General,Nashik,Average,5,2024-08
+P0323,Priya,46.0,Male,Cardiology,Dr. Patil,2024-09-07,2024-09-12,Cancer,0,Cashh,General,Mumbai,Good,5,2024-09
+P0324,Priya,46.0,Female,Neurology,Dr. Patil,2024-04-13,2024-04-14,Fever,110869,Cashh,Generel,Kolhapur,Good,1,2024-04
+P0325,Priya,46.0,Male,Dermatology,Dr. Sharma,2024-04-03,2024-04-05,Cancer,43124,UPI,Semi,Solapur,Poor,2,2024-04
+P0326,Vikas,46.0,Male,Orthopedics,Dr. Rao,2024-02-29,2024-03-02,Fever,0,Cashh,General,Mumbai,Good,2,2024-02
+P0327,Neha,46.0,Female,Orthopedics,Dr. Sharma,2024-10-25,2024-10-31,Skin Infection,0,Cashh,semi,Mumbai,Average,6,2024-10
+P0328,Anjali,25.0,Male,Cardiology,Dr. Rao,2024-04-11,2024-04-12,Fracture,12907,UPI,Private,Mumbai,Poor,1,2024-04
+P0329,Vikas,46.0,Female,Oncology,Dr. Mehta,2024-02-08,2024-02-17,Asthma,999999,Cashh,Semi,Pune,Average,9,2024-02
+P0330,Priya,66.0,Male,Oncology,Dr. Rao,2024-01-19,2024-01-22,Diabetes,999999,Cash,semi,Solapur,Average,3,2024-01
+P0331,Priya,46.0,Female,Dermatology,Dr. Patil,2024-07-02,2024-07-09,Cancer,0,Cashh,General,Nagpur,Good,7,2024-07
+P0332,Pooja,17.0,Female,Dermatology,Dr. Patil,2024-04-11,2024-04-15,Cancer,9678,Cash,Semi,Aurangabad,Poor,4,2024-04
+P0333,Kiran,34.0,Male,Neurology,Dr. Khan,2024-06-18,2024-06-19,Asthma,999999,Insurance,General,Pune,Good,1,2024-06
+P0334,Amit,24.0,Male,Pediatrics,Dr. Sharma,2024-03-20,2024-03-21,Cancer,38940,Cashh,semi,Nashik,Average,1,2024-03
+P0335,Kiran,46.0,Female,Orthopedics,Dr. Singh,2024-06-21,2024-06-28,Cancer,1158,UPI,Private,Aurangabad,Good,7,2024-06
+P0336,Neha,46.0,Female,Oncology,Dr. Mehta,2024-02-10,2024-02-12,Cancer,21526,Cash,Private,Nagpur,Average,2,2024-02
+P0337,Neha,68.0,Male,Orthopedics,Dr. Khan,2024-09-27,2024-10-02,Cancer,999999,INSURANCE,Generel,Pune,Poor,5,2024-09
+P0338,Pooja,46.0,Female,Dermatology,Dr. Singh,2024-10-20,2024-10-22,Cancer,0,Cash,semi,Kolhapur,Average,2,2024-10
+P0339,Amit,46.0,Male,Cardiology,Dr. Khan,2024-10-19,2024-10-22,Cancer,999999,UPI,Generel,Nagpur,Average,3,2024-10
+P0340,Rohan,80.0,Male,Dermatology,Dr. Khan,2024-02-06,2024-02-11,Migraine,0,Insurance,Generel,Mumbai,Average,5,2024-02
+P0341,Pooja,45.0,Male,Dermatology,Dr. Mehta,2024-07-24,2024-07-27,Skin Infection,0,INSURANCE,General,Solapur,Average,3,2024-07
+P0342,Pooja,64.0,Female,Oncology,Dr. Sharma,2024-02-27,2024-03-02,Cancer,70954,Cash,Private,Nashik,Poor,4,2024-02
+P0343,Anjali,46.0,Female,Pediatrics,Dr. Khan,2024-08-25,2024-08-26,Cancer,999999,UPI,Semi,Nagpur,Average,1,2024-08
+P0344,Rohan,46.0,Female,Neurology,Dr. Patil,2024-04-08,2024-04-12,Fever,36054,Cashh,Private,Solapur,Average,4,2024-04
+P0345,Amit,46.0,Male,Cardiology,Dr. Singh,2024-04-08,2024-04-13,Cancer,80663,UPI ,Private,Pune,Good,5,2024-04
+P0346,Amit,46.0,Male,Oncology,Dr. Mehta,2024-07-31,2024-08-05,Cancer,0,UPI ,Private,Nagpur,Average,5,2024-07
+P0347,Priya,46.0,Female,Pediatrics,Dr. Mehta,2024-06-27,2024-07-07,Asthma,110062,Cash,Generel,Kolhapur,Good,10,2024-06
+P0348,Rohan,78.0,Female,Orthopedics,Dr. Sharma,2024-03-02,2024-03-04,Cancer,78696,UPI ,General,Kolhapur,Average,2,2024-03
+P0349,Sneha,33.0,Male,Dermatology,Dr. Singh,2024-04-17,2024-04-21,Diabetes,0,Insurance,semi,Nagpur,Good,4,2024-04
+P0350,Anjali,46.0,Male,Dermatology,Dr. Mehta,2024-08-24,2024-08-31,Cancer,999999,Cash,semi,Aurangabad,Good,7,2024-08
+P0351,Pooja,46.0,Female,Cardiology,Dr. Mehta,2024-09-09,2024-09-18,Cancer,109408,Insurance,General,Nashik,Average,9,2024-09
+P0352,Rahul,46.0,Female,Oncology,Dr. Singh,2024-09-04,2024-09-13,Cancer,0,UPI ,Semi,Nashik,Average,9,2024-09
+P0353,Pooja,67.0,Female,Orthopedics,Dr. Sharma,2024-02-27,2024-03-05,Cancer,0,UPI,Private,Aurangabad,Poor,7,2024-02
+P0354,Rohan,46.0,Female,Orthopedics,Dr. Rao,2024-02-18,2024-02-19,Heart Disease,999999,Cash,General,Nashik,Good,1,2024-02
+P0355,Rahul,46.0,Male,Neurology,Dr. Rao,2024-04-12,2024-04-13,Cancer,63517,INSURANCE,Generel,Mumbai,Poor,1,2024-04
+P0356,Amit,15.0,Female,Cardiology,Dr. Mehta,2024-07-31,2024-08-04,Cancer,0,Cash,semi,Mumbai,Average,4,2024-07
+P0357,Priya,75.0,Female,Oncology,Dr. Mehta,2024-04-05,2024-04-09,Cancer,999999,INSURANCE,General,Kolhapur,Average,4,2024-04
+P0358,Neha,46.0,Female,Orthopedics,Dr. Mehta,2024-06-10,2024-06-13,Cancer,33710,Insurance,Private,Solapur,Average,3,2024-06
+P0359,Rahul,69.0,Male,Oncology,Dr. Rao,2024-02-20,2024-02-21,Cancer,0,UPI,Generel,Solapur,Poor,1,2024-02
+P0360,Anjali,46.0,Male,Oncology,Dr. Singh,2024-06-02,2024-06-11,Fracture,0,Cash,General,Pune,Good,9,2024-06
+P0361,Neha,46.0,Male,Orthopedics,Dr. Khan,2024-08-22,2024-08-25,Cancer,0,UPI,Private,Nashik,Poor,3,2024-08
+P0362,Kiran,85.0,Male,Pediatrics,Dr. Patil,2024-01-23,2024-01-26,Cancer,0,INSURANCE,semi,Solapur,Good,3,2024-01
+P0363,Neha,46.0,Female,Neurology,Dr. Patil,2024-09-19,2024-09-29,Cancer,999999,Cashh,semi,Solapur,Average,10,2024-09
+P0364,Pooja,22.0,Female,Cardiology,Dr. Rao,2024-04-07,2024-04-15,Cancer,0,Cash,Generel,Mumbai,Average,8,2024-04
+P0365,Kiran,44.0,Female,Cardiology,Dr. Singh,2024-06-20,2024-06-22,Asthma,0,Cashh,Generel,Pune,Average,2,2024-06
+P0366,Pooja,46.0,Female,Cardiology,Dr. Patil,2024-01-06,2024-01-16,Cancer,98113,UPI,General,Nashik,Poor,10,2024-01
+P0367,Sneha,46.0,Female,Pediatrics,Dr. Khan,2024-09-30,2024-10-09,Cancer,117867,UPI,Private,Nagpur,Average,9,2024-09
+P0368,Rahul,46.0,Female,Oncology,Dr. Khan,2024-05-18,2024-05-26,Cancer,999999,Cashh,General,Kolhapur,Average,8,2024-05
+P0369,Sneha,46.0,Female,Cardiology,Dr. Rao,2024-06-21,2024-06-25,Migraine,0,INSURANCE,Private,Pune,Average,4,2024-06
+P0370,Neha,17.0,Male,Neurology,Dr. Rao,2024-08-12,2024-08-20,Cancer,17072,INSURANCE,semi,Solapur,Average,8,2024-08
+P0371,Anjali,71.0,Female,Pediatrics,Dr. Rao,2024-09-02,2024-09-03,Cancer,0,Cashh,semi,Aurangabad,Poor,1,2024-09
+P0372,Pooja,19.0,Male,Orthopedics,Dr. Rao,2024-07-13,2024-07-15,Cancer,109828,Cashh,Generel,Kolhapur,Average,2,2024-07
+P0373,Neha,55.0,Female,Oncology,Dr. Singh,2024-02-06,2024-02-15,Diabetes,61280,UPI ,Generel,Solapur,Average,9,2024-02
+P0374,Vikas,17.0,Male,Pediatrics,Dr. Sharma,2024-02-01,2024-02-08,Asthma,0,UPI,Semi,Nashik,Good,7,2024-02
+P0375,Sneha,63.0,Female,Dermatology,Dr. Singh,2024-10-13,2024-10-14,Migraine,71498,INSURANCE,Generel,Nashik,Good,1,2024-10
+P0376,Priya,66.0,Male,Dermatology,Dr. Mehta,2024-05-26,2024-06-04,Cancer,76701,UPI,semi,Solapur,Good,9,2024-05
+P0377,Priya,1.0,Female,Neurology,Dr. Rao,2024-03-07,2024-03-12,Heart Disease,999999,Insurance,semi,Kolhapur,Poor,5,2024-03
+P0378,Vikas,46.0,Female,Cardiology,Dr. Singh,2024-07-11,2024-07-21,Cancer,0,INSURANCE,Semi,Mumbai,Poor,10,2024-07
+P0379,Amit,67.0,Male,Cardiology,Dr. Rao,2024-08-12,2024-08-21,Diabetes,0,Cash,Semi,Solapur,Average,9,2024-08
+P0380,Rohan,34.0,Male,Pediatrics,Dr. Rao,2024-09-29,2024-10-06,Cancer,20179,UPI,Private,Aurangabad,Average,7,2024-09
+P0381,Anjali,48.0,Female,Orthopedics,Dr. Patil,2024-10-01,2024-10-11,Cancer,65443,INSURANCE,Private,Solapur,Good,10,2024-10
+P0382,Sneha,51.0,Male,Cardiology,Dr. Khan,2024-01-07,2024-01-17,Cancer,0,UPI ,Private,Nagpur,Poor,10,2024-01
+P0383,Sneha,46.0,Female,Orthopedics,Dr. Sharma,2024-01-10,2024-01-15,Cancer,999999,UPI,Private,Mumbai,Average,5,2024-01
+P0384,Pooja,90.0,Male,Oncology,Dr. Patil,2024-03-14,2024-03-16,Cancer,117883,Cashh,semi,Pune,Good,2,2024-03
+P0385,Neha,46.0,Female,Neurology,Dr. Rao,2024-01-01,2024-01-04,Cancer,5456,UPI ,Semi,Nashik,Good,3,2024-01
+P0386,Sneha,46.0,Female,Neurology,Dr. Singh,2024-09-13,2024-09-23,Cancer,68130,UPI,General,Pune,Average,10,2024-09
+P0387,Priya,46.0,Male,Orthopedics,Dr. Mehta,2024-04-07,2024-04-15,Cancer,0,UPI,Private,Kolhapur,Good,8,2024-04
+P0388,Priya,46.0,Female,Orthopedics,Dr. Singh,2024-05-21,2024-05-22,Cancer,0,Insurance,semi,Mumbai,Average,1,2024-05
+P0389,Vikas,83.0,Female,Pediatrics,Dr. Sharma,2024-02-07,2024-02-15,Diabetes,999999,Insurance,Generel,Pune,Good,8,2024-02
+P0390,Rahul,55.0,Male,Oncology,Dr. Rao,2024-01-04,2024-01-09,Asthma,0,Cashh,Generel,Solapur,Poor,5,2024-01
+P0391,Sneha,46.0,Male,Cardiology,Dr. Rao,2024-09-14,2024-09-19,Cancer,102026,UPI ,semi,Nashik,Good,5,2024-09
+P0392,Rohan,90.0,Male,Orthopedics,Dr. Mehta,2024-03-30,2024-04-07,Cancer,999999,UPI,Private,Kolhapur,Good,8,2024-03
+P0393,Priya,74.0,Female,Dermatology,Dr. Khan,2024-05-25,2024-06-02,Heart Disease,132378,UPI,Semi,Aurangabad,Good,8,2024-05
+P0394,Vikas,46.0,Female,Cardiology,Dr. Sharma,2024-08-08,2024-08-17,Asthma,120261,INSURANCE,Generel,Solapur,Average,9,2024-08
+P0395,Kiran,63.0,Male,Oncology,Dr. Singh,2024-07-26,2024-07-30,Cancer,0,Cashh,Private,Kolhapur,Good,4,2024-07
+P0396,Pooja,77.0,Female,Neurology,Dr. Singh,2024-07-27,2024-08-03,Fever,76443,Insurance,Generel,Mumbai,Good,7,2024-07
+P0397,Amit,41.0,Female,Dermatology,Dr. Mehta,2024-06-10,2024-06-12,Heart Disease,999999,Insurance,Private,Solapur,Poor,2,2024-06
+P0398,Vikas,18.0,Male,Neurology,Dr. Khan,2024-10-14,2024-10-17,Asthma,0,Cashh,semi,Pune,Good,3,2024-10
+P0399,Rahul,46.0,Male,Neurology,Dr. Singh,2024-07-12,2024-07-16,Cancer,999999,Cashh,General,Aurangabad,Average,4,2024-07
+P0400,Rahul,44.0,Male,Neurology,Dr. Mehta,2024-06-05,2024-06-15,Cancer,69966,UPI ,General,Aurangabad,Average,10,2024-06
+P0401,Sneha,77.0,Female,Cardiology,Dr. Singh,2024-02-28,2024-03-01,Cancer,999999,Cash,Generel,Aurangabad,Average,2,2024-02
+P0402,Amit,46.0,Male,Neurology,Dr. Patil,2024-04-10,2024-04-20,Cancer,72068,UPI,Semi,Aurangabad,Average,10,2024-04
+P0403,Kiran,46.0,Female,Dermatology,Dr. Patil,2024-07-09,2024-07-13,Cancer,999999,INSURANCE,semi,Nashik,Poor,4,2024-07
+P0404,Pooja,48.0,Female,Orthopedics,Dr. Patil,2024-03-06,2024-03-16,Cancer,133410,UPI ,Semi,Mumbai,Average,10,2024-03
+P0405,Rahul,83.0,Female,Neurology,Dr. Mehta,2024-07-19,2024-07-29,Cancer,75534,UPI ,Semi,Solapur,Poor,10,2024-07
+P0406,Vikas,46.0,Male,Pediatrics,Dr. Rao,2024-02-25,2024-03-03,Migraine,116344,UPI ,Private,Aurangabad,Average,7,2024-02
+P0407,Neha,46.0,Female,Orthopedics,Dr. Rao,2024-09-17,2024-09-18,Cancer,14377,INSURANCE,Private,Kolhapur,Average,1,2024-09
+P0408,Vikas,29.0,Female,Orthopedics,Dr. Khan,2024-10-24,2024-11-02,Cancer,55326,Cashh,Semi,Kolhapur,Average,9,2024-10
+P0409,Neha,70.0,Female,Cardiology,Dr. Rao,2024-04-25,2024-04-30,Diabetes,103059,UPI ,Private,Kolhapur,Poor,5,2024-04
+P0410,Sneha,6.0,Female,Dermatology,Dr. Sharma,2024-03-08,2024-03-11,Cancer,0,Cash,General,Nagpur,Poor,3,2024-03
+P0411,Vikas,60.0,Male,Oncology,Dr. Sharma,2024-08-10,2024-08-16,Cancer,106106,INSURANCE,semi,Aurangabad,Average,6,2024-08
+P0412,Rahul,39.0,Female,Orthopedics,Dr. Sharma,2024-04-23,2024-04-29,Diabetes,999999,UPI ,General,Nagpur,Average,6,2024-04
+P0413,Pooja,27.0,Female,Neurology,Dr. Patil,2024-02-27,2024-03-05,Cancer,8556,Cashh,Generel,Nagpur,Average,7,2024-02
+P0414,Vikas,80.0,Male,Cardiology,Dr. Singh,2024-04-05,2024-04-10,Asthma,0,Cashh,Generel,Kolhapur,Average,5,2024-04
+P0415,Rohan,46.0,Female,Oncology,Dr. Sharma,2024-04-21,2024-04-29,Cancer,0,UPI ,General,Aurangabad,Good,8,2024-04
+P0416,Priya,55.0,Female,Oncology,Dr. Sharma,2024-08-26,2024-09-01,Heart Disease,999999,UPI ,Semi,Aurangabad,Average,6,2024-08
+P0417,Rahul,46.0,Male,Oncology,Dr. Sharma,2024-09-22,2024-09-24,Diabetes,72316,Insurance,Private,Pune,Good,2,2024-09
+P0418,Neha,46.0,Female,Neurology,Dr. Khan,2024-07-12,2024-07-22,Skin Infection,0,UPI,Generel,Nashik,Good,10,2024-07
+P0419,Sneha,46.0,Female,Oncology,Dr. Sharma,2024-03-15,2024-03-20,Cancer,0,INSURANCE,Private,Nashik,Good,5,2024-03
+P0420,Kiran,76.0,Male,Pediatrics,Dr. Mehta,2024-10-01,2024-10-11,Skin Infection,106696,Cashh,semi,Pune,Good,10,2024-10
+P0421,Vikas,46.0,Male,Dermatology,Dr. Singh,2024-07-06,2024-07-11,Skin Infection,0,Cash,Generel,Mumbai,Good,5,2024-07
+P0422,Anjali,81.0,Male,Orthopedics,Dr. Rao,2024-07-08,2024-07-14,Fracture,999999,Cashh,Private,Solapur,Average,6,2024-07
+P0423,Neha,46.0,Female,Cardiology,Dr. Singh,2024-07-25,2024-07-30,Heart Disease,999999,Cashh,General,Nagpur,Average,5,2024-07
+P0424,Priya,60.0,Female,Dermatology,Dr. Khan,2024-04-01,2024-04-02,Cancer,108204,Cashh,semi,Nagpur,Average,1,2024-04
+P0425,Anjali,72.0,Female,Dermatology,Dr. Singh,2024-09-02,2024-09-05,Cancer,0,INSURANCE,Generel,Nagpur,Average,3,2024-09
+P0426,Sneha,41.0,Female,Orthopedics,Dr. Singh,2024-04-29,2024-05-02,Asthma,0,UPI ,Generel,Nagpur,Poor,3,2024-04
+P0427,Priya,46.0,Male,Oncology,Dr. Sharma,2024-02-28,2024-03-02,Diabetes,0,Cash,Generel,Nagpur,Poor,3,2024-02
+P0428,Kiran,86.0,Female,Dermatology,Dr. Sharma,2024-07-19,2024-07-24,Migraine,0,UPI ,Semi,Nagpur,Average,5,2024-07
+P0429,Sneha,46.0,Male,Cardiology,Dr. Khan,2024-07-13,2024-07-15,Cancer,999999,UPI ,Generel,Mumbai,Poor,2,2024-07
+P0430,Kiran,15.0,Male,Dermatology,Dr. Patil,2024-04-30,2024-05-01,Cancer,0,Insurance,Private,Nagpur,Average,1,2024-04
+P0431,Anjali,80.0,Female,Neurology,Dr. Rao,2024-02-22,2024-02-25,Asthma,42836,UPI ,Semi,Pune,Average,3,2024-02
+P0432,Neha,16.0,Male,Oncology,Dr. Rao,2024-06-06,2024-06-15,Fever,146633,Cashh,Semi,Nagpur,Average,9,2024-06
+P0433,Vikas,83.0,Male,Pediatrics,Dr. Sharma,2024-01-04,2024-01-14,Diabetes,62702,Insurance,General,Solapur,Good,10,2024-01
+P0434,Neha,46.0,Male,Cardiology,Dr. Khan,2024-10-09,2024-10-10,Cancer,138268,Cash,Semi,Kolhapur,Good,1,2024-10
+P0435,Kiran,46.0,Male,Oncology,Dr. Sharma,2024-01-26,2024-02-01,Heart Disease,999999,Insurance,Private,Nashik,Average,6,2024-01
+P0436,Amit,46.0,Male,Pediatrics,Dr. Khan,2024-06-09,2024-06-16,Cancer,999999,UPI ,Private,Pune,Average,7,2024-06
+P0437,Anjali,38.0,Female,Neurology,Dr. Rao,2024-08-24,2024-09-01,Asthma,999999,Cash,General,Mumbai,Good,8,2024-08
+P0438,Amit,46.0,Male,Oncology,Dr. Patil,2024-06-27,2024-07-05,Cancer,0,INSURANCE,semi,Aurangabad,Good,8,2024-06
+P0439,Amit,46.0,Female,Orthopedics,Dr. Khan,2024-09-06,2024-09-08,Cancer,38796,Cash,semi,Aurangabad,Good,2,2024-09
+P0440,Sneha,15.0,Female,Neurology,Dr. Mehta,2024-07-09,2024-07-10,Heart Disease,0,UPI ,Private,Kolhapur,Average,1,2024-07
+P0441,Kiran,77.0,Male,Orthopedics,Dr. Sharma,2024-10-09,2024-10-11,Cancer,0,Cash,Semi,Mumbai,Average,2,2024-10
+P0442,Rahul,1.0,Male,Orthopedics,Dr. Mehta,2024-06-07,2024-06-13,Asthma,0,Cash,Semi,Aurangabad,Poor,6,2024-06
+P0443,Amit,46.0,Male,Pediatrics,Dr. Singh,2024-01-02,2024-01-09,Migraine,1099,Cash,Generel,Pune,Average,7,2024-01
+P0444,Amit,20.0,Female,Neurology,Dr. Singh,2024-04-09,2024-04-10,Fever,999999,UPI ,Generel,Mumbai,Good,1,2024-04
+P0445,Sneha,63.0,Female,Neurology,Dr. Mehta,2024-05-26,2024-06-04,Cancer,103646,Cash,semi,Nagpur,Average,9,2024-05
+P0446,Rahul,50.0,Female,Neurology,Dr. Khan,2024-01-03,2024-01-05,Cancer,999999,UPI,Private,Mumbai,Average,2,2024-01
+P0447,Sneha,48.0,Female,Cardiology,Dr. Sharma,2024-10-12,2024-10-18,Cancer,0,UPI,General,Nagpur,Good,6,2024-10
+P0448,Neha,83.0,Male,Orthopedics,Dr. Khan,2024-07-10,2024-07-13,Cancer,0,Cash,Generel,Solapur,Poor,3,2024-07
+P0449,Anjali,46.0,Female,Orthopedics,Dr. Singh,2024-04-25,2024-04-27,Migraine,999999,Cash,Semi,Aurangabad,Good,2,2024-04
+P0450,Kiran,7.0,Male,Neurology,Dr. Sharma,2024-04-06,2024-04-08,Cancer,0,UPI,Semi,Aurangabad,Good,2,2024-04
+P0451,Pooja,33.0,Female,Orthopedics,Dr. Sharma,2024-01-10,2024-01-11,Skin Infection,89106,UPI,General,Nagpur,Average,1,2024-01
+P0452,Kiran,46.0,Male,Neurology,Dr. Mehta,2024-02-21,2024-03-01,Cancer,999999,Insurance,General,Pune,Good,9,2024-02
+P0453,Kiran,46.0,Male,Neurology,Dr. Mehta,2024-04-23,2024-05-02,Cancer,73241,UPI ,semi,Nashik,Average,9,2024-04
+P0454,Anjali,82.0,Female,Neurology,Dr. Patil,2024-10-24,2024-11-02,Cancer,0,Insurance,General,Nashik,Average,9,2024-10
+P0455,Kiran,53.0,Male,Orthopedics,Dr. Khan,2024-03-08,2024-03-13,Cancer,999999,Cash,General,Kolhapur,Average,5,2024-03
+P0456,Amit,76.0,Female,Dermatology,Dr. Sharma,2024-06-04,2024-06-11,Cancer,0,Cashh,semi,Kolhapur,Poor,7,2024-06
+P0457,Amit,46.0,Male,Oncology,Dr. Patil,2024-07-18,2024-07-23,Heart Disease,0,UPI,Semi,Aurangabad,Good,5,2024-07
+P0458,Neha,19.0,Female,Dermatology,Dr. Sharma,2024-04-04,2024-04-14,Asthma,63053,UPI,Generel,Nashik,Good,10,2024-04
+P0459,Priya,46.0,Male,Oncology,Dr. Rao,2024-02-28,2024-03-07,Cancer,0,Cashh,Semi,Solapur,Average,8,2024-02
+P0460,Rahul,46.0,Male,Neurology,Dr. Sharma,2024-03-09,2024-03-18,Cancer,0,Cashh,Semi,Mumbai,Average,9,2024-03
+P0461,Pooja,62.0,Female,Neurology,Dr. Patil,2024-03-26,2024-04-05,Migraine,111462,INSURANCE,Generel,Mumbai,Average,10,2024-03
+P0462,Sneha,62.0,Male,Pediatrics,Dr. Khan,2024-07-02,2024-07-11,Cancer,0,UPI ,General,Aurangabad,Average,9,2024-07
+P0463,Priya,46.0,Male,Oncology,Dr. Rao,2024-03-20,2024-03-24,Fracture,0,UPI,Private,Nagpur,Poor,4,2024-03
+P0464,Kiran,74.0,Female,Pediatrics,Dr. Rao,2024-06-25,2024-06-30,Fracture,999999,UPI ,Semi,Kolhapur,Good,5,2024-06
+P0465,Anjali,46.0,Male,Neurology,Dr. Sharma,2024-05-31,2024-06-02,Cancer,137103,INSURANCE,General,Aurangabad,Average,2,2024-05
+P0466,Anjali,29.0,Female,Oncology,Dr. Singh,2024-10-22,2024-10-26,Asthma,90318,Insurance,semi,Pune,Average,4,2024-10
+P0467,Anjali,26.0,Male,Oncology,Dr. Khan,2024-07-18,2024-07-26,Fever,31493,Cashh,Generel,Aurangabad,Good,8,2024-07
+P0468,Vikas,46.0,Female,Cardiology,Dr. Singh,2024-10-05,2024-10-10,Cancer,999999,Cash,General,Solapur,Good,5,2024-10
+P0469,Amit,65.0,Female,Pediatrics,Dr. Singh,2024-09-10,2024-09-15,Asthma,78790,INSURANCE,General,Aurangabad,Average,5,2024-09
+P0470,Vikas,46.0,Female,Orthopedics,Dr. Mehta,2024-07-25,2024-08-02,Cancer,999999,INSURANCE,Private,Pune,Average,8,2024-07
+P0471,Priya,64.0,Male,Orthopedics,Dr. Sharma,2024-09-26,2024-10-01,Cancer,4682,Cashh,General,Solapur,Good,5,2024-09
+P0472,Pooja,46.0,Female,Cardiology,Dr. Singh,2024-07-03,2024-07-06,Cancer,0,Cash,Private,Pune,Average,3,2024-07
+P0473,Anjali,27.0,Male,Oncology,Dr. Patil,2024-03-01,2024-03-08,Migraine,28764,Cashh,General,Nagpur,Poor,7,2024-03
+P0474,Pooja,46.0,Female,Orthopedics,Dr. Rao,2024-05-14,2024-05-16,Heart Disease,999999,UPI,Generel,Nagpur,Average,2,2024-05
+P0475,Sneha,27.0,Female,Orthopedics,Dr. Khan,2024-03-19,2024-03-20,Heart Disease,0,UPI ,Semi,Aurangabad,Good,1,2024-03
+P0476,Anjali,46.0,Female,Orthopedics,Dr. Khan,2024-10-16,2024-10-20,Cancer,0,UPI,Generel,Solapur,Average,4,2024-10
+P0477,Sneha,47.0,Female,Oncology,Dr. Patil,2024-06-20,2024-06-24,Cancer,999999,Cashh,General,Aurangabad,Average,4,2024-06
+P0478,Rohan,33.0,Male,Cardiology,Dr. Patil,2024-02-16,2024-02-17,Migraine,92602,Insurance,General,Nashik,Average,1,2024-02
+P0479,Rohan,46.0,Male,Orthopedics,Dr. Patil,2024-01-15,2024-01-19,Cancer,0,INSURANCE,semi,Solapur,Good,4,2024-01
+P0480,Priya,46.0,Male,Neurology,Dr. Singh,2024-05-31,2024-06-02,Cancer,999999,Insurance,Generel,Aurangabad,Average,2,2024-05
+P0481,Vikas,2.0,Female,Cardiology,Dr. Sharma,2024-03-07,2024-03-14,Cancer,74257,Insurance,Generel,Nashik,Good,7,2024-03
+P0482,Priya,72.0,Male,Neurology,Dr. Patil,2024-10-14,2024-10-19,Skin Infection,999999,UPI ,Generel,Kolhapur,Average,5,2024-10
+P0483,Kiran,5.0,Female,Dermatology,Dr. Rao,2024-07-12,2024-07-19,Asthma,77153,UPI ,General,Nagpur,Good,7,2024-07
+P0484,Rohan,46.0,Male,Cardiology,Dr. Patil,2024-03-03,2024-03-07,Cancer,112000,INSURANCE,Semi,Mumbai,Poor,4,2024-03
+P0485,Amit,45.0,Female,Pediatrics,Dr. Rao,2024-07-08,2024-07-13,Migraine,36718,Cash,semi,Kolhapur,Average,5,2024-07
+P0486,Anjali,46.0,Female,Neurology,Dr. Singh,2024-05-19,2024-05-21,Cancer,60517,UPI ,semi,Pune,Poor,2,2024-05
+P0487,Vikas,85.0,Male,Cardiology,Dr. Khan,2024-01-30,2024-02-04,Cancer,25609,UPI,Private,Solapur,Good,5,2024-01
+P0488,Pooja,46.0,Male,Oncology,Dr. Khan,2024-07-10,2024-07-17,Cancer,0,Insurance,Private,Solapur,Average,7,2024-07
+P0489,Rohan,46.0,Male,Pediatrics,Dr. Singh,2024-07-14,2024-07-23,Fracture,0,UPI ,Generel,Kolhapur,Poor,9,2024-07
+P0490,Neha,46.0,Male,Cardiology,Dr. Rao,2024-06-27,2024-07-07,Cancer,51336,Insurance,Semi,Kolhapur,Average,10,2024-06
+P0491,Neha,59.0,Female,Pediatrics,Dr. Rao,2024-04-20,2024-04-21,Cancer,147351,INSURANCE,Semi,Solapur,Average,1,2024-04
+P0492,Kiran,71.0,Female,Cardiology,Dr. Mehta,2024-05-18,2024-05-26,Migraine,0,Insurance,semi,Pune,Average,8,2024-05
+P0493,Rahul,46.0,Male,Dermatology,Dr. Mehta,2024-04-17,2024-04-19,Migraine,999999,Cashh,semi,Solapur,Average,2,2024-04
+P0494,Vikas,46.0,Male,Cardiology,Dr. Rao,2024-06-08,2024-06-09,Cancer,0,Cashh,Semi,Nashik,Good,1,2024-06
+P0495,Rahul,59.0,Female,Dermatology,Dr. Khan,2024-02-29,2024-03-10,Fever,81391,UPI ,Generel,Pune,Good,10,2024-02
+P0496,Vikas,48.0,Female,Pediatrics,Dr. Singh,2024-07-20,2024-07-30,Diabetes,0,UPI ,semi,Solapur,Average,10,2024-07
+P0497,Pooja,46.0,Female,Oncology,Dr. Patil,2024-03-22,2024-04-01,Cancer,61440,UPI ,General,Pune,Average,10,2024-03
+P0498,Vikas,46.0,Female,Oncology,Dr. Singh,2024-01-11,2024-01-15,Cancer,30880,INSURANCE,semi,Solapur,Good,4,2024-01
+P0499,Pooja,46.0,Female,Dermatology,Dr. Singh,2024-07-29,2024-07-30,Cancer,999999,Cashh,Generel,Solapur,Average,1,2024-07
+P0500,Pooja,69.0,Male,Pediatrics,Dr. Mehta,2024-04-18,2024-04-19,Fever,0,INSURANCE,Private,Nashik,Good,1,2024-04
+P0501,Neha,46.0,Female,Oncology,Dr. Mehta,2024-03-12,2024-03-17,Cancer,96474,INSURANCE,Private,Solapur,Good,5,2024-03
+P0502,Amit,46.0,Female,Orthopedics,Dr. Mehta,2024-06-28,2024-07-06,Fever,999999,UPI,General,Solapur,Poor,8,2024-06
+P0503,Rahul,46.0,Female,Neurology,Dr. Mehta,2024-09-17,2024-09-20,Heart Disease,999999,UPI ,Generel,Mumbai,Good,3,2024-09
+P0504,Pooja,75.0,Male,Oncology,Dr. Rao,2024-09-20,2024-09-21,Migraine,148039,INSURANCE,Semi,Solapur,Poor,1,2024-09
+P0505,Vikas,46.0,Female,Oncology,Dr. Sharma,2024-06-20,2024-06-25,Cancer,18721,Cashh,Private,Kolhapur,Average,5,2024-06
+P0506,Rohan,46.0,Female,Pediatrics,Dr. Mehta,2024-03-14,2024-03-24,Cancer,0,INSURANCE,semi,Kolhapur,Poor,10,2024-03
+P0507,Kiran,16.0,Male,Orthopedics,Dr. Rao,2024-05-02,2024-05-09,Cancer,26265,Cash,Semi,Kolhapur,Average,7,2024-05
+P0508,Pooja,11.0,Male,Cardiology,Dr. Sharma,2024-02-29,2024-03-02,Asthma,999999,Cash,Generel,Solapur,Average,2,2024-02
+P0509,Rahul,46.0,Male,Pediatrics,Dr. Sharma,2024-10-18,2024-10-24,Cancer,87791,UPI ,semi,Nashik,Average,6,2024-10
+P0510,Kiran,46.0,Male,Pediatrics,Dr. Patil,2024-03-19,2024-03-22,Fracture,0,UPI ,Semi,Nagpur,Average,3,2024-03
+P0511,Vikas,46.0,Male,Cardiology,Dr. Mehta,2024-03-10,2024-03-13,Cancer,0,UPI ,Private,Aurangabad,Good,3,2024-03
+P0512,Rohan,32.0,Female,Pediatrics,Dr. Patil,2024-07-24,2024-07-27,Asthma,0,Insurance,Semi,Mumbai,Average,3,2024-07
+P0513,Kiran,83.0,Female,Cardiology,Dr. Singh,2024-04-09,2024-04-14,Cancer,106763,Cash,Generel,Solapur,Average,5,2024-04
+P0514,Priya,46.0,Male,Oncology,Dr. Rao,2024-06-21,2024-06-27,Cancer,999999,Insurance,Semi,Pune,Good,6,2024-06
+P0515,Rahul,46.0,Female,Neurology,Dr. Mehta,2024-04-24,2024-04-27,Skin Infection,9598,UPI,Generel,Kolhapur,Average,3,2024-04
+P0516,Rohan,46.0,Male,Neurology,Dr. Mehta,2024-05-30,2024-06-02,Fever,34042,Cashh,General,Kolhapur,Average,3,2024-05
+P0517,Sneha,46.0,Female,Neurology,Dr. Singh,2024-10-05,2024-10-15,Cancer,0,INSURANCE,Private,Nashik,Poor,10,2024-10
+P0518,Pooja,52.0,Male,Neurology,Dr. Rao,2024-05-04,2024-05-08,Cancer,999999,UPI ,semi,Nagpur,Average,4,2024-05
+P0519,Anjali,46.0,Female,Neurology,Dr. Sharma,2024-10-19,2024-10-25,Fever,999999,Insurance,Private,Solapur,Average,6,2024-10
+P0520,Rohan,7.0,Female,Pediatrics,Dr. Patil,2024-05-21,2024-05-25,Migraine,133565,Insurance,Semi,Aurangabad,Good,4,2024-05
+P0521,Anjali,15.0,Male,Orthopedics,Dr. Mehta,2024-05-18,2024-05-25,Cancer,0,Insurance,Semi,Nashik,Average,7,2024-05
+P0522,Rahul,46.0,Female,Pediatrics,Dr. Khan,2024-09-22,2024-09-26,Cancer,999999,Cash,Private,Nagpur,Good,4,2024-09
+P0523,Neha,46.0,Female,Neurology,Dr. Patil,2024-09-27,2024-10-04,Skin Infection,999999,UPI,General,Nashik,Good,7,2024-09
+P0524,Pooja,4.0,Female,Oncology,Dr. Patil,2024-07-25,2024-07-27,Cancer,0,Insurance,Generel,Mumbai,Average,2,2024-07
+P0525,Kiran,40.0,Female,Dermatology,Dr. Singh,2024-08-22,2024-08-28,Cancer,91949,Insurance,Private,Kolhapur,Good,6,2024-08
+P0526,Sneha,79.0,Female,Orthopedics,Dr. Patil,2024-10-27,2024-10-29,Cancer,0,Insurance,General,Nagpur,Average,2,2024-10
+P0527,Vikas,46.0,Female,Orthopedics,Dr. Patil,2024-01-05,2024-01-15,Heart Disease,34675,Cashh,semi,Mumbai,Average,10,2024-01
+P0528,Anjali,1.0,Female,Oncology,Dr. Patil,2024-02-02,2024-02-04,Cancer,68979,Insurance,Private,Solapur,Average,2,2024-02
+P0529,Rohan,66.0,Female,Neurology,Dr. Sharma,2024-10-08,2024-10-11,Cancer,0,Cashh,General,Nashik,Poor,3,2024-10
+P0530,Priya,46.0,Female,Pediatrics,Dr. Rao,2024-03-29,2024-04-04,Fever,0,UPI,General,Nashik,Good,6,2024-03
+P0531,Rohan,46.0,Male,Oncology,Dr. Khan,2024-07-24,2024-07-26,Migraine,0,UPI,Private,Kolhapur,Average,2,2024-07
+P0532,Vikas,52.0,Female,Orthopedics,Dr. Patil,2024-02-02,2024-02-10,Heart Disease,999999,INSURANCE,Private,Nagpur,Poor,8,2024-02
+P0533,Rahul,46.0,Male,Cardiology,Dr. Khan,2024-06-21,2024-06-25,Fever,999999,Cashh,General,Aurangabad,Poor,4,2024-06
+P0534,Sneha,46.0,Female,Orthopedics,Dr. Singh,2024-01-29,2024-02-07,Cancer,999999,INSURANCE,Private,Nashik,Average,9,2024-01
+P0535,Sneha,33.0,Female,Cardiology,Dr. Sharma,2024-05-25,2024-06-02,Cancer,999999,Insurance,General,Kolhapur,Average,8,2024-05
+P0536,Rohan,44.0,Female,Pediatrics,Dr. Rao,2024-07-12,2024-07-17,Cancer,999999,INSURANCE,Semi,Pune,Good,5,2024-07
+P0537,Amit,8.0,Male,Cardiology,Dr. Singh,2024-01-18,2024-01-22,Heart Disease,999999,UPI ,Generel,Aurangabad,Average,4,2024-01
+P0538,Kiran,9.0,Male,Dermatology,Dr. Mehta,2024-02-04,2024-02-05,Migraine,0,INSURANCE,semi,Kolhapur,Average,1,2024-02
+P0539,Amit,46.0,Female,Oncology,Dr. Khan,2024-06-26,2024-07-02,Asthma,999999,UPI,semi,Mumbai,Good,6,2024-06
+P0540,Kiran,51.0,Female,Neurology,Dr. Khan,2024-05-01,2024-05-03,Cancer,999999,Cash,Generel,Kolhapur,Average,2,2024-05
+P0541,Amit,46.0,Female,Neurology,Dr. Rao,2024-02-25,2024-03-06,Asthma,0,Insurance,Generel,Pune,Good,10,2024-02
+P0542,Amit,46.0,Female,Neurology,Dr. Singh,2024-10-15,2024-10-24,Cancer,999999,UPI ,semi,Nagpur,Good,9,2024-10
+P0543,Amit,66.0,Male,Cardiology,Dr. Mehta,2024-08-11,2024-08-18,Cancer,0,INSURANCE,Generel,Solapur,Average,7,2024-08
+P0544,Kiran,79.0,Male,Pediatrics,Dr. Khan,2024-03-06,2024-03-15,Diabetes,999999,Cash,Private,Nagpur,Average,9,2024-03
+P0545,Sneha,30.0,Female,Oncology,Dr. Khan,2024-04-20,2024-04-29,Heart Disease,0,INSURANCE,General,Mumbai,Average,9,2024-04
+P0546,Kiran,78.0,Female,Neurology,Dr. Patil,2024-05-28,2024-06-06,Cancer,130773,UPI,Generel,Nashik,Poor,9,2024-05
+P0547,Anjali,16.0,Male,Oncology,Dr. Rao,2024-07-29,2024-07-31,Cancer,92679,UPI,General,Nashik,Good,2,2024-07
+P0548,Sneha,20.0,Female,Cardiology,Dr. Patil,2024-07-25,2024-08-01,Asthma,0,Cash,Private,Solapur,Average,7,2024-07
+P0549,Pooja,60.0,Female,Cardiology,Dr. Mehta,2024-04-29,2024-05-07,Cancer,53425,INSURANCE,Private,Aurangabad,Average,8,2024-04
+P0550,Kiran,46.0,Female,Dermatology,Dr. Mehta,2024-03-05,2024-03-14,Migraine,0,UPI,Semi,Nashik,Good,9,2024-03
+P0551,Amit,82.0,Female,Oncology,Dr. Rao,2024-07-17,2024-07-19,Migraine,139673,UPI,General,Nagpur,Average,2,2024-07
+P0552,Kiran,34.0,Female,Cardiology,Dr. Mehta,2024-07-09,2024-07-15,Cancer,0,Cash,semi,Mumbai,Average,6,2024-07
+P0553,Sneha,46.0,Male,Oncology,Dr. Rao,2024-01-16,2024-01-17,Fracture,999999,UPI,General,Nagpur,Poor,1,2024-01
+P0554,Priya,75.0,Male,Pediatrics,Dr. Mehta,2024-03-31,2024-04-05,Cancer,0,UPI ,Semi,Aurangabad,Poor,5,2024-03
+P0555,Priya,46.0,Female,Neurology,Dr. Sharma,2024-10-18,2024-10-22,Cancer,999999,Cashh,Semi,Kolhapur,Good,4,2024-10
+P0556,Neha,83.0,Female,Cardiology,Dr. Mehta,2024-02-15,2024-02-18,Migraine,67669,UPI ,Generel,Pune,Average,3,2024-02
+P0557,Amit,34.0,Female,Dermatology,Dr. Singh,2024-03-23,2024-03-28,Cancer,92289,Insurance,Generel,Pune,Good,5,2024-03
+P0558,Amit,46.0,Male,Cardiology,Dr. Khan,2024-02-16,2024-02-22,Cancer,999999,Cashh,Private,Solapur,Average,6,2024-02
+P0559,Rahul,46.0,Female,Orthopedics,Dr. Rao,2024-05-18,2024-05-19,Cancer,81751,Insurance,Generel,Aurangabad,Good,1,2024-05
+P0560,Pooja,46.0,Female,Neurology,Dr. Patil,2024-09-29,2024-10-09,Migraine,999999,INSURANCE,Private,Nashik,Good,10,2024-09
+P0561,Rohan,82.0,Female,Oncology,Dr. Rao,2024-03-01,2024-03-05,Asthma,999999,Insurance,Semi,Mumbai,Average,4,2024-03
+P0562,Rahul,12.0,Female,Neurology,Dr. Sharma,2024-08-11,2024-08-13,Fracture,0,Cashh,Generel,Nagpur,Poor,2,2024-08
+P0563,Vikas,46.0,Female,Neurology,Dr. Patil,2024-04-21,2024-04-29,Heart Disease,66875,Insurance,Semi,Mumbai,Average,8,2024-04
+P0564,Amit,12.0,Female,Pediatrics,Dr. Singh,2024-03-26,2024-04-05,Cancer,45436,Cash,semi,Pune,Average,10,2024-03
+P0565,Rohan,8.0,Female,Orthopedics,Dr. Sharma,2024-06-08,2024-06-16,Skin Infection,0,Cashh,Semi,Pune,Average,8,2024-06
+P0566,Priya,46.0,Male,Dermatology,Dr. Rao,2024-04-08,2024-04-15,Diabetes,81426,INSURANCE,semi,Pune,Average,7,2024-04
+P0567,Pooja,3.0,Female,Neurology,Dr. Patil,2024-09-27,2024-10-04,Heart Disease,0,Cash,Semi,Nagpur,Average,7,2024-09
+P0568,Pooja,46.0,Female,Dermatology,Dr. Patil,2024-06-18,2024-06-19,Migraine,999999,INSURANCE,General,Mumbai,Good,1,2024-06
+P0569,Pooja,46.0,Female,Dermatology,Dr. Singh,2024-05-08,2024-05-11,Fever,103432,UPI,General,Pune,Good,3,2024-05
+P0570,Neha,46.0,Male,Dermatology,Dr. Khan,2024-09-28,2024-10-05,Cancer,999999,UPI ,semi,Nagpur,Good,7,2024-09
+P0571,Amit,46.0,Female,Neurology,Dr. Patil,2024-10-22,2024-10-26,Fever,122321,UPI ,Generel,Nashik,Poor,4,2024-10
+P0572,Sneha,46.0,Female,Cardiology,Dr. Patil,2024-07-14,2024-07-19,Cancer,92826,Cash,semi,Kolhapur,Average,5,2024-07
+P0573,Neha,55.0,Male,Cardiology,Dr. Mehta,2024-08-30,2024-09-04,Cancer,108769,UPI ,General,Nagpur,Good,5,2024-08
+P0574,Pooja,69.0,Female,Pediatrics,Dr. Rao,2024-07-13,2024-07-22,Cancer,0,UPI ,semi,Nashik,Average,9,2024-07
+P0575,Anjali,51.0,Female,Dermatology,Dr. Rao,2024-01-08,2024-01-13,Cancer,0,INSURANCE,Private,Aurangabad,Average,5,2024-01
+P0576,Anjali,55.0,Female,Neurology,Dr. Rao,2024-05-09,2024-05-16,Skin Infection,999999,Insurance,semi,Aurangabad,Good,7,2024-05
+P0577,Pooja,60.0,Male,Dermatology,Dr. Patil,2024-08-12,2024-08-16,Heart Disease,999999,INSURANCE,semi,Nagpur,Good,4,2024-08
+P0578,Vikas,26.0,Female,Dermatology,Dr. Mehta,2024-09-20,2024-09-21,Cancer,0,Cashh,Semi,Nagpur,Good,1,2024-09
+P0579,Anjali,64.0,Female,Orthopedics,Dr. Rao,2024-10-02,2024-10-08,Fracture,999999,UPI,Semi,Aurangabad,Average,6,2024-10
+P0580,Kiran,77.0,Male,Orthopedics,Dr. Singh,2024-08-18,2024-08-23,Migraine,112483,INSURANCE,General,Mumbai,Average,5,2024-08
+P0581,Sneha,46.0,Male,Neurology,Dr. Patil,2024-01-07,2024-01-14,Cancer,0,UPI ,semi,Nashik,Average,7,2024-01
+P0582,Priya,86.0,Female,Neurology,Dr. Rao,2024-05-09,2024-05-18,Cancer,36865,Cashh,Semi,Kolhapur,Average,9,2024-05
+P0583,Neha,46.0,Female,Pediatrics,Dr. Mehta,2024-07-03,2024-07-06,Cancer,0,Cashh,Private,Aurangabad,Average,3,2024-07
+P0584,Priya,46.0,Male,Neurology,Dr. Singh,2024-08-24,2024-08-27,Heart Disease,999999,Cash,Private,Nashik,Average,3,2024-08
+P0585,Sneha,76.0,Female,Oncology,Dr. Singh,2024-04-12,2024-04-20,Skin Infection,0,Cashh,semi,Aurangabad,Average,8,2024-04
+P0586,Vikas,32.0,Female,Neurology,Dr. Singh,2024-06-20,2024-06-25,Cancer,0,UPI,General,Solapur,Good,5,2024-06
+P0587,Rahul,49.0,Female,Oncology,Dr. Patil,2024-07-17,2024-07-23,Cancer,999999,INSURANCE,General,Mumbai,Good,6,2024-07
+P0588,Rahul,90.0,Female,Pediatrics,Dr. Khan,2024-06-25,2024-06-29,Skin Infection,0,Insurance,Private,Mumbai,Poor,4,2024-06
+P0589,Sneha,46.0,Male,Dermatology,Dr. Singh,2024-07-03,2024-07-13,Cancer,999999,Cash,Semi,Pune,Good,10,2024-07
+P0590,Rahul,46.0,Female,Neurology,Dr. Patil,2024-03-23,2024-03-25,Cancer,0,Cash,General,Aurangabad,Good,2,2024-03
+P0591,Kiran,29.0,Male,Oncology,Dr. Rao,2024-05-22,2024-05-26,Cancer,999999,UPI,General,Pune,Poor,4,2024-05
+P0592,Rohan,46.0,Female,Neurology,Dr. Singh,2024-07-27,2024-08-04,Cancer,136994,Cash,Private,Pune,Average,8,2024-07
+P0593,Vikas,46.0,Female,Dermatology,Dr. Rao,2024-10-18,2024-10-23,Cancer,28249,INSURANCE,Semi,Pune,Average,5,2024-10
+P0594,Kiran,38.0,Female,Dermatology,Dr. Khan,2024-02-09,2024-02-10,Skin Infection,999999,Cashh,semi,Mumbai,Average,1,2024-02
+P0595,Neha,46.0,Female,Neurology,Dr. Mehta,2024-04-11,2024-04-12,Fracture,999999,Cash,Generel,Mumbai,Good,1,2024-04
+P0596,Priya,25.0,Female,Dermatology,Dr. Patil,2024-08-03,2024-08-12,Cancer,0,Cash,semi,Nagpur,Average,9,2024-08
+P0597,Pooja,3.0,Female,Cardiology,Dr. Singh,2024-09-21,2024-09-26,Asthma,111642,UPI,semi,Nashik,Average,5,2024-09
+P0598,Vikas,82.0,Male,Oncology,Dr. Sharma,2024-02-26,2024-03-07,Cancer,0,Cashh,Generel,Kolhapur,Good,10,2024-02
+P0599,Rahul,70.0,Male,Cardiology,Dr. Mehta,2024-06-22,2024-06-24,Cancer,50481,Cash,semi,Solapur,Average,2,2024-06
+P0600,Sneha,46.0,Male,Dermatology,Dr. Rao,2024-08-09,2024-08-10,Cancer,69997,Insurance,General,Pune,Average,1,2024-08
+P0601,Rohan,46.0,Male,Neurology,Dr. Mehta,2024-07-30,2024-08-09,Diabetes,0,UPI ,Generel,Mumbai,Good,10,2024-07
+P0602,Rahul,46.0,Female,Dermatology,Dr. Mehta,2024-09-11,2024-09-18,Cancer,0,Insurance,Semi,Mumbai,Average,7,2024-09
+P0603,Anjali,46.0,Male,Orthopedics,Dr. Khan,2024-10-09,2024-10-14,Cancer,999999,Cashh,Private,Pune,Average,5,2024-10
+P0604,Sneha,46.0,Female,Neurology,Dr. Rao,2024-05-22,2024-05-23,Fever,36768,Insurance,semi,Pune,Average,1,2024-05
+P0605,Anjali,1.0,Female,Orthopedics,Dr. Patil,2024-09-09,2024-09-18,Cancer,59990,UPI ,semi,Kolhapur,Poor,9,2024-09
+P0606,Amit,46.0,Male,Pediatrics,Dr. Sharma,2024-04-26,2024-05-06,Cancer,8864,UPI,Private,Mumbai,Average,10,2024-04
+P0607,Vikas,35.0,Female,Orthopedics,Dr. Singh,2024-10-10,2024-10-18,Cancer,999999,Insurance,Generel,Kolhapur,Average,8,2024-10
+P0608,Pooja,46.0,Male,Pediatrics,Dr. Rao,2024-06-06,2024-06-07,Cancer,999999,Cashh,Private,Solapur,Average,1,2024-06
+P0609,Sneha,46.0,Male,Neurology,Dr. Sharma,2024-08-07,2024-08-10,Cancer,999999,UPI,Generel,Nashik,Poor,3,2024-08
+P0610,Sneha,46.0,Male,Oncology,Dr. Sharma,2024-06-14,2024-06-24,Cancer,32832,INSURANCE,Private,Aurangabad,Average,10,2024-06
+P0611,Amit,73.0,Female,Cardiology,Dr. Patil,2024-10-05,2024-10-11,Cancer,46688,UPI,Generel,Pune,Average,6,2024-10
+P0612,Anjali,46.0,Male,Oncology,Dr. Singh,2024-01-24,2024-01-29,Cancer,0,UPI,Generel,Nagpur,Good,5,2024-01
+P0613,Sneha,23.0,Male,Dermatology,Dr. Patil,2024-05-01,2024-05-04,Cancer,0,Cash,semi,Mumbai,Poor,3,2024-05
+P0614,Neha,46.0,Male,Orthopedics,Dr. Sharma,2024-09-09,2024-09-18,Fever,103650,Cashh,Private,Kolhapur,Good,9,2024-09
+P0615,Rahul,51.0,Male,Cardiology,Dr. Rao,2024-04-17,2024-04-22,Fracture,0,UPI,Generel,Nagpur,Average,5,2024-04
+P0616,Priya,46.0,Male,Cardiology,Dr. Sharma,2024-08-04,2024-08-13,Skin Infection,999999,INSURANCE,Semi,Nashik,Poor,9,2024-08
+P0617,Pooja,88.0,Female,Pediatrics,Dr. Patil,2024-10-11,2024-10-21,Cancer,999999,Insurance,Semi,Nashik,Average,10,2024-10
+P0618,Kiran,75.0,Male,Orthopedics,Dr. Mehta,2024-10-26,2024-10-31,Cancer,104864,Cashh,semi,Solapur,Average,5,2024-10
+P0619,Vikas,1.0,Male,Neurology,Dr. Mehta,2024-09-20,2024-09-23,Fever,129454,INSURANCE,Generel,Solapur,Average,3,2024-09
+P0620,Anjali,46.0,Female,Dermatology,Dr. Rao,2024-08-11,2024-08-17,Fracture,105157,Cashh,Semi,Solapur,Average,6,2024-08
+P0621,Sneha,2.0,Female,Dermatology,Dr. Rao,2024-08-25,2024-09-03,Heart Disease,0,Cashh,General,Pune,Good,9,2024-08
+P0622,Vikas,59.0,Female,Neurology,Dr. Rao,2024-03-04,2024-03-14,Cancer,999999,Cash,Private,Kolhapur,Average,10,2024-03
+P0623,Neha,46.0,Female,Oncology,Dr. Patil,2024-03-31,2024-04-05,Fever,999999,UPI,semi,Aurangabad,Average,5,2024-03
+P0624,Rohan,61.0,Female,Dermatology,Dr. Khan,2024-08-17,2024-08-22,Cancer,53881,UPI ,General,Mumbai,Average,5,2024-08
+P0625,Vikas,46.0,Female,Cardiology,Dr. Khan,2024-07-30,2024-08-08,Cancer,999999,UPI,Semi,Nashik,Poor,9,2024-07
+P0626,Neha,46.0,Male,Cardiology,Dr. Mehta,2024-05-02,2024-05-06,Diabetes,122438,Cashh,Generel,Mumbai,Poor,4,2024-05
+P0627,Pooja,27.0,Female,Cardiology,Dr. Sharma,2024-05-04,2024-05-06,Heart Disease,999999,UPI ,Semi,Kolhapur,Poor,2,2024-05
+P0628,Priya,46.0,Male,Orthopedics,Dr. Sharma,2024-04-19,2024-04-22,Cancer,120119,Insurance,semi,Nagpur,Average,3,2024-04
+P0629,Pooja,13.0,Male,Cardiology,Dr. Singh,2024-02-04,2024-02-09,Skin Infection,999999,UPI,Private,Solapur,Average,5,2024-02
+P0630,Sneha,46.0,Female,Cardiology,Dr. Mehta,2024-08-16,2024-08-23,Fracture,999999,Cash,Generel,Solapur,Poor,7,2024-08
+P0631,Amit,46.0,Female,Pediatrics,Dr. Patil,2024-10-09,2024-10-13,Fever,0,UPI ,Generel,Nagpur,Good,4,2024-10
+P0632,Rahul,46.0,Female,Dermatology,Dr. Singh,2024-10-14,2024-10-24,Cancer,999999,Cash,semi,Mumbai,Good,10,2024-10
+P0633,Anjali,54.0,Male,Oncology,Dr. Singh,2024-07-05,2024-07-08,Cancer,0,UPI,Semi,Nagpur,Good,3,2024-07
+P0634,Rahul,46.0,Female,Orthopedics,Dr. Mehta,2024-03-24,2024-03-27,Cancer,999999,Cash,General,Kolhapur,Average,3,2024-03
+P0635,Anjali,62.0,Female,Pediatrics,Dr. Patil,2024-08-14,2024-08-21,Cancer,0,Insurance,semi,Nagpur,Average,7,2024-08
+P0636,Sneha,5.0,Male,Neurology,Dr. Mehta,2024-09-01,2024-09-06,Diabetes,21364,UPI ,General,Nagpur,Good,5,2024-09
+P0637,Priya,46.0,Male,Neurology,Dr. Sharma,2024-08-23,2024-08-30,Cancer,0,UPI,General,Nagpur,Average,7,2024-08
+P0638,Anjali,26.0,Male,Cardiology,Dr. Rao,2024-03-04,2024-03-06,Cancer,0,UPI,semi,Pune,Good,2,2024-03
+P0639,Rahul,23.0,Female,Orthopedics,Dr. Sharma,2024-01-31,2024-02-07,Cancer,0,Cash,General,Nagpur,Average,7,2024-01
+P0640,Amit,78.0,Female,Cardiology,Dr. Singh,2024-02-28,2024-03-06,Fever,55510,Insurance,General,Nashik,Average,7,2024-02
+P0641,Rahul,46.0,Female,Pediatrics,Dr. Rao,2024-02-24,2024-03-02,Heart Disease,999999,Insurance,semi,Solapur,Good,7,2024-02
+P0642,Vikas,46.0,Female,Oncology,Dr. Sharma,2024-09-09,2024-09-10,Cancer,0,UPI ,Private,Pune,Average,1,2024-09
+P0643,Rahul,9.0,Male,Oncology,Dr. Rao,2024-04-29,2024-05-05,Migraine,999999,Cash,General,Nashik,Average,6,2024-04
+P0644,Sneha,78.0,Female,Pediatrics,Dr. Singh,2024-06-27,2024-07-01,Heart Disease,0,Cashh,General,Aurangabad,Good,4,2024-06
+P0645,Anjali,46.0,Male,Pediatrics,Dr. Sharma,2024-09-15,2024-09-25,Cancer,80357,UPI,semi,Kolhapur,Good,10,2024-09
+P0646,Pooja,46.0,Male,Dermatology,Dr. Singh,2024-09-19,2024-09-26,Heart Disease,90711,INSURANCE,General,Kolhapur,Average,7,2024-09
+P0647,Pooja,11.0,Male,Cardiology,Dr. Singh,2024-05-08,2024-05-09,Diabetes,999999,Insurance,Private,Solapur,Average,1,2024-05
+P0648,Vikas,46.0,Female,Cardiology,Dr. Sharma,2024-03-16,2024-03-22,Cancer,0,Cashh,Generel,Nashik,Good,6,2024-03
+P0649,Kiran,46.0,Female,Oncology,Dr. Sharma,2024-03-18,2024-03-27,Cancer,999999,Insurance,semi,Pune,Average,9,2024-03
+P0650,Vikas,56.0,Female,Neurology,Dr. Sharma,2024-07-24,2024-07-30,Migraine,999999,UPI,Generel,Pune,Average,6,2024-07
+P0651,Rohan,46.0,Female,Dermatology,Dr. Mehta,2024-07-19,2024-07-23,Skin Infection,999999,UPI,Generel,Mumbai,Average,4,2024-07
+P0652,Kiran,4.0,Female,Dermatology,Dr. Singh,2024-05-15,2024-05-25,Diabetes,0,UPI,semi,Pune,Average,10,2024-05
+P0653,Kiran,46.0,Female,Cardiology,Dr. Singh,2024-09-15,2024-09-22,Asthma,0,UPI,Private,Nagpur,Average,7,2024-09
+P0654,Amit,84.0,Female,Cardiology,Dr. Rao,2024-04-23,2024-04-27,Asthma,53334,UPI ,Generel,Mumbai,Poor,4,2024-04
+P0655,Vikas,46.0,Female,Oncology,Dr. Mehta,2024-02-12,2024-02-13,Cancer,0,Cashh,General,Kolhapur,Average,1,2024-02
+P0656,Neha,46.0,Female,Dermatology,Dr. Sharma,2024-09-16,2024-09-18,Skin Infection,76682,UPI ,Generel,Pune,Good,2,2024-09
+P0657,Kiran,19.0,Female,Neurology,Dr. Rao,2024-08-21,2024-08-23,Heart Disease,102171,Cash,Private,Solapur,Average,2,2024-08
+P0658,Priya,46.0,Female,Pediatrics,Dr. Mehta,2024-08-20,2024-08-30,Cancer,0,Cashh,Generel,Aurangabad,Good,10,2024-08
+P0659,Rohan,56.0,Female,Dermatology,Dr. Singh,2024-10-13,2024-10-18,Skin Infection,75542,INSURANCE,General,Aurangabad,Average,5,2024-10
+P0660,Priya,66.0,Female,Oncology,Dr. Sharma,2024-09-27,2024-10-04,Fever,0,Cashh,General,Nagpur,Poor,7,2024-09
+P0661,Rahul,46.0,Female,Neurology,Dr. Khan,2024-01-11,2024-01-13,Cancer,999999,INSURANCE,semi,Kolhapur,Good,2,2024-01
+P0662,Rahul,46.0,Male,Cardiology,Dr. Mehta,2024-08-08,2024-08-14,Cancer,34880,Cash,semi,Mumbai,Poor,6,2024-08
+P0663,Priya,29.0,Female,Orthopedics,Dr. Patil,2024-05-07,2024-05-11,Diabetes,19100,UPI ,Semi,Mumbai,Good,4,2024-05
+P0664,Anjali,46.0,Male,Pediatrics,Dr. Patil,2024-09-24,2024-09-26,Migraine,999999,UPI ,Generel,Aurangabad,Good,2,2024-09
+P0665,Rahul,29.0,Male,Dermatology,Dr. Sharma,2024-04-18,2024-04-25,Cancer,60931,UPI ,General,Mumbai,Poor,7,2024-04
+P0666,Amit,32.0,Female,Dermatology,Dr. Khan,2024-04-25,2024-04-26,Asthma,0,UPI,Generel,Solapur,Good,1,2024-04
+P0667,Rahul,33.0,Male,Dermatology,Dr. Rao,2024-01-10,2024-01-13,Asthma,91092,Cashh,Generel,Kolhapur,Average,3,2024-01
+P0668,Amit,46.0,Male,Oncology,Dr. Rao,2024-06-23,2024-06-25,Cancer,999999,Insurance,Private,Aurangabad,Average,2,2024-06
+P0669,Vikas,36.0,Male,Orthopedics,Dr. Khan,2024-06-20,2024-06-28,Cancer,71562,UPI ,General,Kolhapur,Average,8,2024-06
+P0670,Kiran,90.0,Female,Neurology,Dr. Sharma,2024-07-28,2024-08-02,Cancer,132989,UPI,Generel,Aurangabad,Good,5,2024-07
+P0671,Priya,46.0,Female,Neurology,Dr. Singh,2024-03-08,2024-03-09,Cancer,0,UPI ,Private,Aurangabad,Good,1,2024-03
+P0672,Anjali,51.0,Female,Oncology,Dr. Sharma,2024-10-11,2024-10-12,Cancer,999999,Cashh,Private,Aurangabad,Good,1,2024-10
+P0673,Rahul,23.0,Male,Pediatrics,Dr. Singh,2024-07-27,2024-08-03,Cancer,0,Insurance,General,Aurangabad,Average,7,2024-07
+P0674,Pooja,38.0,Male,Oncology,Dr. Khan,2024-06-26,2024-07-04,Diabetes,109888,Insurance,General,Nagpur,Average,8,2024-06
+P0675,Anjali,27.0,Female,Oncology,Dr. Singh,2024-07-07,2024-07-16,Cancer,37394,Cashh,Generel,Aurangabad,Good,9,2024-07
+P0676,Sneha,46.0,Female,Dermatology,Dr. Singh,2024-06-06,2024-06-11,Diabetes,0,Cashh,Generel,Solapur,Average,5,2024-06
+P0677,Vikas,46.0,Male,Neurology,Dr. Singh,2024-08-26,2024-08-28,Migraine,999999,UPI,Generel,Solapur,Average,2,2024-08
+P0678,Rahul,87.0,Male,Neurology,Dr. Sharma,2024-07-09,2024-07-16,Cancer,113971,Cash,Semi,Nagpur,Poor,7,2024-07
+P0679,Vikas,10.0,Female,Neurology,Dr. Patil,2024-09-07,2024-09-12,Diabetes,42065,UPI,General,Aurangabad,Good,5,2024-09
+P0680,Rohan,46.0,Female,Pediatrics,Dr. Khan,2024-01-21,2024-01-24,Migraine,0,UPI ,Private,Nashik,Average,3,2024-01
+P0681,Priya,74.0,Female,Orthopedics,Dr. Patil,2024-08-18,2024-08-25,Diabetes,113701,Insurance,General,Pune,Poor,7,2024-08
+P0682,Neha,36.0,Female,Pediatrics,Dr. Mehta,2024-08-05,2024-08-14,Fever,0,INSURANCE,Semi,Nagpur,Good,9,2024-08
+P0683,Anjali,46.0,Female,Neurology,Dr. Rao,2024-05-05,2024-05-06,Fever,15857,INSURANCE,General,Nashik,Good,1,2024-05
+P0684,Pooja,46.0,Female,Pediatrics,Dr. Khan,2024-03-25,2024-03-26,Cancer,0,Insurance,Private,Solapur,Average,1,2024-03
+P0685,Vikas,35.0,Male,Orthopedics,Dr. Patil,2024-06-02,2024-06-05,Migraine,999999,UPI ,Generel,Mumbai,Average,3,2024-06
+P0686,Neha,46.0,Female,Dermatology,Dr. Mehta,2024-10-21,2024-10-30,Cancer,92565,INSURANCE,Private,Nagpur,Average,9,2024-10
+P0687,Sneha,87.0,Female,Pediatrics,Dr. Patil,2024-08-31,2024-09-04,Cancer,999999,UPI ,semi,Nagpur,Good,4,2024-08
+P0688,Rohan,28.0,Male,Cardiology,Dr. Sharma,2024-10-18,2024-10-25,Migraine,999999,UPI ,Generel,Solapur,Poor,7,2024-10
+P0689,Pooja,46.0,Female,Oncology,Dr. Khan,2024-08-10,2024-08-12,Skin Infection,0,Cash,Semi,Kolhapur,Average,2,2024-08
+P0690,Rohan,20.0,Male,Dermatology,Dr. Mehta,2024-03-28,2024-04-03,Diabetes,0,Insurance,Generel,Nagpur,Average,6,2024-03
+P0691,Vikas,46.0,Female,Dermatology,Dr. Sharma,2024-09-20,2024-09-25,Cancer,65542,Cashh,General,Pune,Average,5,2024-09
+P0692,Vikas,34.0,Female,Oncology,Dr. Mehta,2024-09-06,2024-09-10,Cancer,999999,Cash,General,Kolhapur,Good,4,2024-09
+P0693,Vikas,46.0,Male,Neurology,Dr. Rao,2024-08-18,2024-08-22,Cancer,999999,Insurance,semi,Kolhapur,Good,4,2024-08
+P0694,Anjali,46.0,Male,Neurology,Dr. Patil,2024-02-09,2024-02-13,Fracture,999999,INSURANCE,Private,Solapur,Good,4,2024-02
+P0695,Neha,51.0,Male,Dermatology,Dr. Khan,2024-08-06,2024-08-11,Heart Disease,999999,Cashh,Semi,Aurangabad,Good,5,2024-08
+P0696,Kiran,46.0,Female,Dermatology,Dr. Mehta,2024-02-19,2024-02-25,Cancer,3180,Insurance,semi,Solapur,Poor,6,2024-02
+P0697,Sneha,46.0,Female,Oncology,Dr. Rao,2024-09-25,2024-09-26,Asthma,999999,Insurance,semi,Solapur,Poor,1,2024-09
+P0698,Kiran,28.0,Male,Dermatology,Dr. Sharma,2024-08-13,2024-08-14,Fracture,119895,UPI,Private,Pune,Average,1,2024-08
+P0699,Anjali,46.0,Male,Oncology,Dr. Rao,2024-04-23,2024-04-26,Cancer,0,Insurance,Semi,Nagpur,Good,3,2024-04
+P0700,Rohan,46.0,Female,Oncology,Dr. Sharma,2024-05-13,2024-05-22,Cancer,0,UPI ,Semi,Pune,Average,9,2024-05
+P0701,Rohan,46.0,Female,Dermatology,Dr. Patil,2024-10-14,2024-10-22,Cancer,70556,Cash,semi,Nashik,Average,8,2024-10
+P0702,Rahul,1.0,Female,Dermatology,Dr. Singh,2024-09-02,2024-09-05,Migraine,0,UPI,Private,Mumbai,Poor,3,2024-09
+P0703,Rohan,46.0,Male,Orthopedics,Dr. Khan,2024-03-10,2024-03-14,Cancer,0,UPI,Private,Solapur,Average,4,2024-03
+P0704,Vikas,84.0,Female,Orthopedics,Dr. Sharma,2024-06-16,2024-06-22,Fracture,999999,INSURANCE,Semi,Nagpur,Good,6,2024-06
+P0705,Kiran,79.0,Female,Orthopedics,Dr. Singh,2024-01-07,2024-01-10,Migraine,0,Insurance,Semi,Aurangabad,Average,3,2024-01
+P0706,Anjali,11.0,Male,Pediatrics,Dr. Patil,2024-02-18,2024-02-22,Fracture,999999,INSURANCE,Generel,Mumbai,Average,4,2024-02
+P0707,Kiran,38.0,Male,Oncology,Dr. Patil,2024-03-23,2024-03-29,Cancer,999999,UPI ,Semi,Mumbai,Good,6,2024-03
+P0708,Amit,44.0,Male,Dermatology,Dr. Patil,2024-08-15,2024-08-18,Asthma,999999,INSURANCE,semi,Nagpur,Poor,3,2024-08
+P0709,Kiran,10.0,Female,Cardiology,Dr. Patil,2024-06-18,2024-06-20,Fever,999999,Insurance,Private,Pune,Average,2,2024-06
+P0710,Priya,50.0,Female,Oncology,Dr. Khan,2024-06-17,2024-06-18,Cancer,999999,Cashh,General,Solapur,Average,1,2024-06
+P0711,Anjali,46.0,Female,Dermatology,Dr. Sharma,2024-10-06,2024-10-12,Heart Disease,999999,Cashh,Semi,Nashik,Average,6,2024-10
+P0712,Amit,46.0,Female,Pediatrics,Dr. Rao,2024-04-27,2024-05-04,Cancer,999999,Cash,Semi,Pune,Good,7,2024-04
+P0713,Kiran,47.0,Male,Pediatrics,Dr. Singh,2024-06-29,2024-07-09,Cancer,999999,Insurance,semi,Aurangabad,Poor,10,2024-06
+P0714,Amit,46.0,Male,Orthopedics,Dr. Patil,2024-05-22,2024-05-30,Fever,0,Cash,Private,Nashik,Average,8,2024-05
+P0715,Neha,46.0,Female,Dermatology,Dr. Patil,2024-09-04,2024-09-10,Cancer,36960,Cash,Generel,Aurangabad,Poor,6,2024-09
+P0716,Pooja,46.0,Male,Orthopedics,Dr. Khan,2024-01-14,2024-01-21,Fever,999999,UPI ,General,Pune,Good,7,2024-01
+P0717,Kiran,46.0,Female,Cardiology,Dr. Rao,2024-09-05,2024-09-14,Cancer,95869,Cash,Semi,Nashik,Average,9,2024-09
+P0718,Kiran,4.0,Male,Dermatology,Dr. Patil,2024-04-04,2024-04-05,Asthma,999999,Cash,Private,Mumbai,Poor,1,2024-04
+P0719,Vikas,46.0,Male,Pediatrics,Dr. Patil,2024-09-12,2024-09-14,Diabetes,16662,Insurance,Generel,Solapur,Average,2,2024-09
+P0720,Anjali,46.0,Female,Oncology,Dr. Singh,2024-09-28,2024-10-08,Cancer,0,UPI ,General,Nagpur,Average,10,2024-09
+P0721,Pooja,57.0,Female,Pediatrics,Dr. Khan,2024-08-02,2024-08-06,Cancer,0,Insurance,Generel,Pune,Good,4,2024-08
+P0722,Rohan,66.0,Male,Orthopedics,Dr. Mehta,2024-10-05,2024-10-12,Cancer,0,INSURANCE,General,Aurangabad,Good,7,2024-10
+P0723,Neha,46.0,Male,Neurology,Dr. Patil,2024-09-24,2024-09-30,Cancer,87414,Cashh,Generel,Solapur,Poor,6,2024-09
+P0724,Rahul,18.0,Female,Neurology,Dr. Khan,2024-07-21,2024-07-30,Cancer,0,INSURANCE,Semi,Nagpur,Good,9,2024-07
+P0725,Sneha,81.0,Male,Oncology,Dr. Mehta,2024-06-10,2024-06-18,Cancer,99272,Cashh,semi,Aurangabad,Good,8,2024-06
+P0726,Anjali,24.0,Male,Pediatrics,Dr. Khan,2024-09-16,2024-09-25,Fracture,999999,UPI,Generel,Kolhapur,Good,9,2024-09
+P0727,Priya,46.0,Male,Orthopedics,Dr. Patil,2024-06-28,2024-07-05,Cancer,0,UPI ,Semi,Nagpur,Poor,7,2024-06
+P0728,Sneha,27.0,Female,Orthopedics,Dr. Rao,2024-05-06,2024-05-16,Cancer,999999,UPI ,Private,Kolhapur,Average,10,2024-05
+P0729,Pooja,3.0,Male,Cardiology,Dr. Khan,2024-04-16,2024-04-26,Cancer,999999,INSURANCE,General,Nashik,Good,10,2024-04
+P0730,Kiran,46.0,Female,Orthopedics,Dr. Singh,2024-06-04,2024-06-09,Cancer,999999,Cash,Private,Mumbai,Poor,5,2024-06
+P0731,Sneha,6.0,Male,Pediatrics,Dr. Rao,2024-05-03,2024-05-12,Cancer,145182,UPI ,Semi,Pune,Good,9,2024-05
+P0732,Vikas,46.0,Female,Neurology,Dr. Singh,2024-10-19,2024-10-21,Skin Infection,0,Cashh,Private,Aurangabad,Average,2,2024-10
+P0733,Rohan,74.0,Female,Oncology,Dr. Singh,2024-05-20,2024-05-24,Skin Infection,0,Cash,General,Aurangabad,Good,4,2024-05
+P0734,Anjali,64.0,Male,Dermatology,Dr. Singh,2024-01-22,2024-01-27,Diabetes,0,Cashh,Generel,Nagpur,Average,5,2024-01
+P0735,Sneha,46.0,Female,Orthopedics,Dr. Sharma,2024-05-16,2024-05-20,Cancer,0,Cashh,semi,Solapur,Good,4,2024-05
+P0736,Pooja,52.0,Female,Orthopedics,Dr. Sharma,2024-05-02,2024-05-11,Migraine,0,Cash,Semi,Pune,Good,9,2024-05
+P0737,Rohan,77.0,Male,Pediatrics,Dr. Rao,2024-10-10,2024-10-12,Cancer,0,UPI ,Generel,Nashik,Average,2,2024-10
+P0738,Vikas,44.0,Male,Orthopedics,Dr. Patil,2024-08-19,2024-08-28,Cancer,135987,UPI ,Semi,Mumbai,Average,9,2024-08
+P0739,Kiran,46.0,Female,Orthopedics,Dr. Sharma,2024-01-24,2024-01-28,Diabetes,999999,Insurance,General,Mumbai,Average,4,2024-01
+P0740,Rahul,46.0,Female,Cardiology,Dr. Rao,2024-04-30,2024-05-10,Fever,95256,INSURANCE,Generel,Pune,Average,10,2024-04
+P0741,Amit,46.0,Female,Dermatology,Dr. Singh,2024-04-03,2024-04-07,Asthma,0,Cash,semi,Nagpur,Average,4,2024-04
+P0742,Amit,71.0,Male,Oncology,Dr. Sharma,2024-09-09,2024-09-12,Cancer,0,UPI ,General,Aurangabad,Poor,3,2024-09
+P0743,Rohan,46.0,Male,Neurology,Dr. Mehta,2024-07-21,2024-07-24,Cancer,133951,Cashh,Generel,Aurangabad,Average,3,2024-07
+P0744,Anjali,44.0,Female,Oncology,Dr. Rao,2024-02-23,2024-02-25,Diabetes,42156,UPI,Private,Nashik,Good,2,2024-02
+P0745,Priya,46.0,Female,Cardiology,Dr. Sharma,2024-05-05,2024-05-06,Cancer,48146,Insurance,Generel,Pune,Good,1,2024-05
+P0746,Neha,46.0,Female,Neurology,Dr. Patil,2024-09-21,2024-09-23,Heart Disease,50414,UPI,semi,Nagpur,Average,2,2024-09
+P0747,Rohan,60.0,Female,Oncology,Dr. Mehta,2024-07-12,2024-07-19,Cancer,0,Cash,Private,Mumbai,Average,7,2024-07
+P0748,Neha,46.0,Female,Orthopedics,Dr. Khan,2024-04-15,2024-04-18,Migraine,0,Insurance,General,Kolhapur,Average,3,2024-04
+P0749,Anjali,83.0,Female,Neurology,Dr. Sharma,2024-08-06,2024-08-07,Cancer,101846,UPI ,Generel,Pune,Average,1,2024-08
+P0750,Anjali,38.0,Female,Neurology,Dr. Patil,2024-08-12,2024-08-21,Cancer,999999,UPI ,Private,Solapur,Average,9,2024-08
+P0751,Priya,12.0,Female,Cardiology,Dr. Mehta,2024-03-31,2024-04-08,Cancer,0,INSURANCE,Semi,Mumbai,Good,8,2024-03
+P0752,Neha,76.0,Female,Orthopedics,Dr. Patil,2024-10-18,2024-10-26,Cancer,0,Insurance,Private,Nashik,Good,8,2024-10
+P0753,Pooja,36.0,Male,Oncology,Dr. Rao,2024-07-23,2024-08-02,Cancer,999999,UPI ,Generel,Mumbai,Average,10,2024-07
+P0754,Vikas,60.0,Female,Oncology,Dr. Rao,2024-02-26,2024-03-06,Cancer,999999,Insurance,Generel,Mumbai,Good,9,2024-02
+P0755,Amit,46.0,Female,Pediatrics,Dr. Patil,2024-04-13,2024-04-16,Asthma,0,Cashh,Semi,Aurangabad,Average,3,2024-04
+P0756,Amit,46.0,Female,Cardiology,Dr. Rao,2024-08-17,2024-08-22,Cancer,24420,Cashh,Private,Nagpur,Good,5,2024-08
+P0757,Kiran,73.0,Female,Pediatrics,Dr. Rao,2024-01-13,2024-01-20,Cancer,14403,UPI ,General,Nagpur,Average,7,2024-01
+P0758,Rahul,73.0,Male,Cardiology,Dr. Singh,2024-01-01,2024-01-03,Cancer,54860,UPI,General,Kolhapur,Average,2,2024-01
+P0759,Rohan,51.0,Female,Cardiology,Dr. Rao,2024-05-20,2024-05-23,Cancer,44302,Cash,Generel,Solapur,Poor,3,2024-05
+P0760,Anjali,46.0,Female,Dermatology,Dr. Patil,2024-01-18,2024-01-19,Fever,41177,INSURANCE,semi,Solapur,Average,1,2024-01
+P0761,Priya,20.0,Male,Neurology,Dr. Patil,2024-08-02,2024-08-08,Cancer,0,Insurance,Semi,Aurangabad,Good,6,2024-08
+P0762,Anjali,10.0,Male,Pediatrics,Dr. Khan,2024-10-06,2024-10-11,Cancer,999999,Cash,Semi,Solapur,Average,5,2024-10
+P0763,Vikas,46.0,Male,Oncology,Dr. Khan,2024-08-10,2024-08-11,Asthma,65418,Cash,semi,Nagpur,Poor,1,2024-08
+P0764,Kiran,46.0,Female,Neurology,Dr. Singh,2024-10-01,2024-10-10,Diabetes,999999,UPI ,Generel,Pune,Average,9,2024-10
+P0765,Neha,69.0,Female,Oncology,Dr. Khan,2024-10-09,2024-10-12,Skin Infection,999999,Cashh,Semi,Nashik,Good,3,2024-10
+P0766,Kiran,40.0,Male,Cardiology,Dr. Khan,2024-06-18,2024-06-28,Skin Infection,70123,INSURANCE,semi,Nagpur,Average,10,2024-06
+P0767,Pooja,11.0,Female,Dermatology,Dr. Patil,2024-05-28,2024-05-31,Diabetes,124473,UPI ,Generel,Solapur,Poor,3,2024-05
+P0768,Neha,46.0,Male,Neurology,Dr. Singh,2024-07-27,2024-08-06,Cancer,72018,UPI,Generel,Solapur,Good,10,2024-07
+P0769,Amit,46.0,Male,Dermatology,Dr. Patil,2024-02-20,2024-02-24,Cancer,999999,Cash,Generel,Kolhapur,Poor,4,2024-02
+P0770,Amit,53.0,Female,Neurology,Dr. Khan,2024-03-29,2024-04-07,Migraine,0,Cashh,Generel,Pune,Average,9,2024-03
+P0771,Pooja,46.0,Female,Oncology,Dr. Khan,2024-04-09,2024-04-13,Cancer,52762,UPI ,Private,Solapur,Good,4,2024-04
+P0772,Rohan,88.0,Female,Pediatrics,Dr. Rao,2024-05-03,2024-05-05,Cancer,80244,Insurance,Semi,Solapur,Poor,2,2024-05
+P0773,Vikas,10.0,Male,Neurology,Dr. Singh,2024-04-20,2024-04-24,Skin Infection,999999,INSURANCE,semi,Kolhapur,Good,4,2024-04
+P0774,Pooja,70.0,Female,Pediatrics,Dr. Rao,2024-09-21,2024-09-28,Skin Infection,105240,Cash,Generel,Aurangabad,Good,7,2024-09
+P0775,Vikas,46.0,Female,Orthopedics,Dr. Khan,2024-10-23,2024-11-01,Asthma,75715,Cashh,Generel,Aurangabad,Average,9,2024-10
+P0776,Pooja,46.0,Female,Dermatology,Dr. Rao,2024-09-09,2024-09-10,Asthma,999999,Insurance,General,Pune,Good,1,2024-09
+P0777,Pooja,64.0,Female,Oncology,Dr. Singh,2024-09-23,2024-09-26,Cancer,0,UPI ,Semi,Kolhapur,Good,3,2024-09
+P0778,Kiran,46.0,Male,Oncology,Dr. Mehta,2024-07-17,2024-07-26,Cancer,999999,UPI ,semi,Nashik,Average,9,2024-07
+P0779,Anjali,46.0,Male,Orthopedics,Dr. Rao,2024-06-11,2024-06-19,Fever,0,Cash,Private,Pune,Average,8,2024-06
+P0780,Pooja,90.0,Female,Cardiology,Dr. Sharma,2024-03-23,2024-03-31,Cancer,119849,Cash,Semi,Kolhapur,Average,8,2024-03
+P0781,Sneha,31.0,Male,Oncology,Dr. Patil,2024-04-21,2024-04-22,Heart Disease,0,Cash,Semi,Kolhapur,Good,1,2024-04
+P0782,Rohan,46.0,Female,Cardiology,Dr. Singh,2024-02-22,2024-02-26,Cancer,0,UPI ,Semi,Aurangabad,Good,4,2024-02
+P0783,Rahul,47.0,Male,Cardiology,Dr. Khan,2024-03-01,2024-03-07,Cancer,0,UPI ,semi,Mumbai,Good,6,2024-03
+P0784,Anjali,46.0,Male,Pediatrics,Dr. Rao,2024-01-14,2024-01-20,Heart Disease,999999,Insurance,Semi,Solapur,Poor,6,2024-01
+P0785,Vikas,46.0,Male,Dermatology,Dr. Rao,2024-04-12,2024-04-22,Cancer,999999,Cashh,semi,Pune,Average,10,2024-04
+P0786,Anjali,14.0,Male,Dermatology,Dr. Khan,2024-09-07,2024-09-10,Migraine,0,INSURANCE,General,Mumbai,Average,3,2024-09
+P0787,Anjali,46.0,Male,Dermatology,Dr. Mehta,2024-08-06,2024-08-14,Cancer,85521,INSURANCE,Private,Aurangabad,Good,8,2024-08
+P0788,Priya,46.0,Female,Dermatology,Dr. Rao,2024-08-06,2024-08-12,Fracture,132240,UPI,Generel,Nashik,Good,6,2024-08
+P0789,Vikas,34.0,Female,Oncology,Dr. Patil,2024-07-16,2024-07-23,Migraine,86961,UPI,Generel,Nagpur,Good,7,2024-07
+P0790,Amit,71.0,Female,Oncology,Dr. Rao,2024-08-11,2024-08-12,Cancer,999999,Cashh,Semi,Nagpur,Good,1,2024-08
+P0791,Kiran,46.0,Male,Dermatology,Dr. Rao,2024-03-15,2024-03-25,Cancer,999999,UPI ,semi,Pune,Average,10,2024-03
+P0792,Priya,75.0,Male,Oncology,Dr. Sharma,2024-05-19,2024-05-23,Cancer,999999,Cashh,General,Nashik,Average,4,2024-05
+P0793,Rahul,46.0,Female,Oncology,Dr. Rao,2024-01-23,2024-01-24,Fracture,999999,UPI ,Generel,Nashik,Average,1,2024-01
+P0794,Anjali,46.0,Female,Pediatrics,Dr. Sharma,2024-02-08,2024-02-16,Diabetes,0,UPI ,semi,Aurangabad,Average,8,2024-02
+P0795,Anjali,46.0,Female,Orthopedics,Dr. Sharma,2024-06-24,2024-07-01,Diabetes,0,Cash,General,Nashik,Average,7,2024-06
+P0796,Kiran,46.0,Male,Oncology,Dr. Mehta,2024-03-20,2024-03-25,Cancer,117843,UPI ,semi,Mumbai,Average,5,2024-03
+P0797,Rahul,57.0,Female,Neurology,Dr. Khan,2024-08-15,2024-08-21,Cancer,76166,Cashh,Generel,Aurangabad,Average,6,2024-08
+P0798,Sneha,24.0,Female,Cardiology,Dr. Singh,2024-04-12,2024-04-15,Cancer,999999,UPI,General,Nashik,Poor,3,2024-04
+P0799,Sneha,46.0,Female,Neurology,Dr. Mehta,2024-10-15,2024-10-19,Cancer,0,Insurance,Semi,Nagpur,Average,4,2024-10
+P0800,Pooja,46.0,Female,Neurology,Dr. Mehta,2024-10-20,2024-10-28,Fracture,999999,Cashh,semi,Pune,Average,8,2024-10
+P0801,Rahul,46.0,Female,Cardiology,Dr. Khan,2024-06-04,2024-06-13,Cancer,0,UPI,Generel,Kolhapur,Poor,9,2024-06
+P0802,Anjali,46.0,Male,Orthopedics,Dr. Rao,2024-06-29,2024-07-02,Skin Infection,999999,Insurance,Private,Kolhapur,Good,3,2024-06
+P0803,Anjali,46.0,Female,Dermatology,Dr. Singh,2024-06-19,2024-06-26,Cancer,0,Cash,Semi,Pune,Good,7,2024-06
+P0804,Kiran,46.0,Female,Dermatology,Dr. Patil,2024-02-29,2024-03-10,Cancer,93974,Cashh,Private,Aurangabad,Good,10,2024-02
+P0805,Vikas,46.0,Female,Pediatrics,Dr. Rao,2024-10-15,2024-10-25,Cancer,0,Cash,General,Aurangabad,Average,10,2024-10
+P0806,Amit,13.0,Female,Dermatology,Dr. Rao,2024-07-31,2024-08-09,Cancer,0,INSURANCE,semi,Nashik,Average,9,2024-07
+P0807,Rohan,34.0,Female,Pediatrics,Dr. Singh,2024-01-21,2024-01-26,Cancer,999999,Cashh,Private,Aurangabad,Average,5,2024-01
+P0808,Rohan,46.0,Male,Pediatrics,Dr. Sharma,2024-06-28,2024-07-04,Cancer,999999,Insurance,semi,Solapur,Average,6,2024-06
+P0809,Amit,46.0,Female,Dermatology,Dr. Khan,2024-08-09,2024-08-18,Cancer,73123,UPI,semi,Solapur,Good,9,2024-08
+P0810,Amit,19.0,Male,Oncology,Dr. Singh,2024-02-21,2024-03-02,Cancer,66648,UPI,Private,Pune,Average,10,2024-02
+P0811,Priya,31.0,Female,Orthopedics,Dr. Patil,2024-09-05,2024-09-12,Cancer,999999,UPI,General,Nagpur,Poor,7,2024-09
+P0812,Rahul,33.0,Male,Cardiology,Dr. Rao,2024-08-09,2024-08-16,Migraine,999999,INSURANCE,Private,Solapur,Good,7,2024-08
+P0813,Rohan,44.0,Male,Neurology,Dr. Mehta,2024-10-09,2024-10-12,Cancer,66170,UPI,Generel,Aurangabad,Good,3,2024-10
+P0814,Rahul,46.0,Female,Neurology,Dr. Singh,2024-05-10,2024-05-12,Cancer,0,Insurance,General,Nagpur,Good,2,2024-05
+P0815,Rohan,46.0,Male,Dermatology,Dr. Patil,2024-02-28,2024-03-04,Fracture,999999,Cash,semi,Nashik,Good,5,2024-02
+P0816,Pooja,46.0,Male,Pediatrics,Dr. Patil,2024-09-30,2024-10-03,Cancer,90052,Cash,semi,Kolhapur,Average,3,2024-09
+P0817,Kiran,31.0,Male,Pediatrics,Dr. Rao,2024-05-27,2024-05-29,Cancer,2230,UPI,Semi,Solapur,Average,2,2024-05
+P0818,Anjali,46.0,Female,Orthopedics,Dr. Khan,2024-10-22,2024-10-26,Cancer,74907,Cashh,Semi,Nagpur,Poor,4,2024-10
+P0819,Amit,46.0,Female,Dermatology,Dr. Patil,2024-05-05,2024-05-13,Cancer,73686,UPI,Private,Pune,Poor,8,2024-05
+P0820,Priya,46.0,Male,Neurology,Dr. Khan,2024-09-04,2024-09-14,Asthma,0,INSURANCE,Generel,Nashik,Average,10,2024-09
+P0821,Priya,85.0,Female,Oncology,Dr. Mehta,2024-01-31,2024-02-07,Asthma,0,Cashh,semi,Kolhapur,Good,7,2024-01
+P0822,Rahul,46.0,Male,Dermatology,Dr. Patil,2024-06-03,2024-06-08,Cancer,131917,INSURANCE,semi,Aurangabad,Good,5,2024-06
+P0823,Rahul,4.0,Female,Neurology,Dr. Khan,2024-01-16,2024-01-25,Diabetes,13158,Cashh,General,Aurangabad,Good,9,2024-01
+P0824,Pooja,71.0,Female,Neurology,Dr. Singh,2024-01-01,2024-01-10,Cancer,999999,INSURANCE,General,Aurangabad,Average,9,2024-01
+P0825,Vikas,46.0,Female,Neurology,Dr. Mehta,2024-10-15,2024-10-16,Cancer,104452,Cashh,Semi,Nagpur,Average,1,2024-10
+P0826,Neha,46.0,Female,Pediatrics,Dr. Rao,2024-02-28,2024-02-29,Asthma,999999,Insurance,General,Nashik,Average,1,2024-02
+P0827,Neha,46.0,Male,Oncology,Dr. Mehta,2024-06-13,2024-06-18,Fracture,999999,Cash,Private,Solapur,Average,5,2024-06
+P0828,Rohan,46.0,Male,Cardiology,Dr. Patil,2024-02-25,2024-03-02,Skin Infection,44667,INSURANCE,semi,Mumbai,Poor,6,2024-02
+P0829,Rahul,32.0,Male,Orthopedics,Dr. Sharma,2024-01-19,2024-01-25,Diabetes,0,Cashh,semi,Nagpur,Poor,6,2024-01
+P0830,Rohan,7.0,Male,Cardiology,Dr. Singh,2024-02-29,2024-03-06,Cancer,58819,Cash,Semi,Nagpur,Average,6,2024-02
+P0831,Rahul,46.0,Female,Pediatrics,Dr. Mehta,2024-06-24,2024-06-27,Diabetes,0,Cash,Generel,Nashik,Average,3,2024-06
+P0832,Amit,46.0,Female,Cardiology,Dr. Rao,2024-07-18,2024-07-19,Fever,999999,Cash,Private,Nashik,Good,1,2024-07
+P0833,Sneha,55.0,Female,Oncology,Dr. Sharma,2024-03-28,2024-04-05,Cancer,0,Cashh,General,Kolhapur,Average,8,2024-03
+P0834,Kiran,72.0,Female,Orthopedics,Dr. Sharma,2024-07-24,2024-07-30,Skin Infection,0,Cash,Private,Pune,Good,6,2024-07
+P0835,Rohan,8.0,Male,Dermatology,Dr. Rao,2024-05-01,2024-05-06,Cancer,999999,UPI ,Private,Nagpur,Good,5,2024-05
+P0836,Priya,20.0,Female,Neurology,Dr. Sharma,2024-04-07,2024-04-12,Cancer,999999,UPI,Semi,Nagpur,Average,5,2024-04
+P0837,Neha,46.0,Male,Dermatology,Dr. Singh,2024-05-16,2024-05-25,Cancer,109338,Cash,Generel,Nagpur,Good,9,2024-05
+P0838,Rohan,46.0,Female,Oncology,Dr. Rao,2024-10-25,2024-10-27,Cancer,0,INSURANCE,Generel,Nashik,Average,2,2024-10
+P0839,Vikas,46.0,Male,Cardiology,Dr. Singh,2024-08-06,2024-08-11,Cancer,36674,UPI ,semi,Nashik,Poor,5,2024-08
+P0840,Priya,85.0,Female,Orthopedics,Dr. Singh,2024-05-13,2024-05-19,Cancer,53194,UPI,General,Kolhapur,Good,6,2024-05
+P0841,Amit,84.0,Male,Cardiology,Dr. Khan,2024-03-10,2024-03-15,Fever,999999,UPI,Generel,Pune,Average,5,2024-03
+P0842,Neha,46.0,Male,Neurology,Dr. Rao,2024-01-21,2024-01-27,Cancer,39252,UPI,Generel,Nagpur,Poor,6,2024-01
+P0843,Amit,76.0,Male,Dermatology,Dr. Patil,2024-09-07,2024-09-14,Diabetes,27323,INSURANCE,Private,Kolhapur,Average,7,2024-09
+P0844,Anjali,56.0,Female,Pediatrics,Dr. Khan,2024-10-20,2024-10-26,Cancer,0,Cash,Semi,Solapur,Average,6,2024-10
+P0845,Kiran,43.0,Male,Dermatology,Dr. Rao,2024-01-19,2024-01-21,Cancer,999999,Cash,General,Kolhapur,Average,2,2024-01
+P0846,Rahul,12.0,Female,Cardiology,Dr. Patil,2024-07-27,2024-07-28,Heart Disease,999999,Cash,Generel,Mumbai,Average,1,2024-07
+P0847,Rohan,62.0,Female,Cardiology,Dr. Singh,2024-02-13,2024-02-19,Migraine,123294,Cashh,Private,Nashik,Average,6,2024-02
+P0848,Priya,46.0,Female,Oncology,Dr. Khan,2024-07-09,2024-07-13,Diabetes,115240,UPI,Generel,Nashik,Average,4,2024-07
+P0849,Kiran,46.0,Female,Orthopedics,Dr. Rao,2024-08-09,2024-08-11,Diabetes,0,UPI,Semi,Kolhapur,Average,2,2024-08
+P0850,Rahul,46.0,Male,Dermatology,Dr. Sharma,2024-03-21,2024-03-24,Heart Disease,999999,UPI,Generel,Pune,Average,3,2024-03
+P0851,Rahul,46.0,Female,Cardiology,Dr. Sharma,2024-07-18,2024-07-22,Cancer,999999,Cash,General,Pune,Average,4,2024-07
+P0852,Anjali,46.0,Male,Neurology,Dr. Khan,2024-02-21,2024-03-02,Cancer,999999,UPI ,General,Kolhapur,Average,10,2024-02
+P0853,Rahul,46.0,Female,Cardiology,Dr. Sharma,2024-05-23,2024-05-25,Cancer,24251,Cashh,General,Aurangabad,Poor,2,2024-05
+P0854,Rahul,59.0,Male,Orthopedics,Dr. Mehta,2024-08-18,2024-08-23,Cancer,0,Insurance,semi,Aurangabad,Average,5,2024-08
+P0855,Rahul,46.0,Female,Neurology,Dr. Mehta,2024-04-28,2024-05-01,Fracture,110287,UPI,semi,Nagpur,Good,3,2024-04
+P0856,Kiran,86.0,Male,Neurology,Dr. Singh,2024-04-11,2024-04-14,Cancer,46854,UPI,Generel,Nagpur,Average,3,2024-04
+P0857,Pooja,14.0,Female,Neurology,Dr. Sharma,2024-04-04,2024-04-13,Cancer,999999,UPI ,semi,Mumbai,Average,9,2024-04
+P0858,Anjali,46.0,Female,Cardiology,Dr. Sharma,2024-08-20,2024-08-21,Cancer,999999,Cashh,semi,Nagpur,Average,1,2024-08
+P0859,Rohan,46.0,Male,Orthopedics,Dr. Singh,2024-08-25,2024-09-02,Cancer,6563,INSURANCE,semi,Kolhapur,Average,8,2024-08
+P0860,Priya,71.0,Female,Orthopedics,Dr. Singh,2024-06-09,2024-06-14,Fracture,79536,Cash,General,Aurangabad,Average,5,2024-06
+P0861,Kiran,57.0,Female,Cardiology,Dr. Rao,2024-08-10,2024-08-17,Diabetes,0,Cashh,Semi,Kolhapur,Average,7,2024-08
+P0862,Amit,46.0,Female,Dermatology,Dr. Rao,2024-08-26,2024-08-28,Asthma,131944,Cash,Generel,Solapur,Average,2,2024-08
+P0863,Neha,69.0,Male,Oncology,Dr. Mehta,2024-06-19,2024-06-22,Heart Disease,999999,Insurance,General,Kolhapur,Average,3,2024-06
+P0864,Anjali,57.0,Male,Pediatrics,Dr. Sharma,2024-09-19,2024-09-23,Cancer,999999,Cash,Semi,Nashik,Average,4,2024-09
+P0865,Vikas,46.0,Male,Dermatology,Dr. Rao,2024-06-11,2024-06-19,Skin Infection,999999,INSURANCE,Private,Kolhapur,Poor,8,2024-06
+P0866,Pooja,18.0,Male,Neurology,Dr. Singh,2024-08-05,2024-08-08,Skin Infection,0,Cash,semi,Mumbai,Average,3,2024-08
+P0867,Anjali,64.0,Male,Cardiology,Dr. Rao,2024-01-31,2024-02-07,Cancer,999999,Insurance,Semi,Kolhapur,Poor,7,2024-01
+P0868,Sneha,46.0,Male,Dermatology,Dr. Patil,2024-09-22,2024-09-29,Migraine,81975,INSURANCE,Semi,Solapur,Poor,7,2024-09
+P0869,Rahul,46.0,Female,Dermatology,Dr. Singh,2024-10-25,2024-11-01,Cancer,999999,Insurance,General,Solapur,Average,7,2024-10
+P0870,Sneha,35.0,Female,Oncology,Dr. Mehta,2024-09-28,2024-10-08,Fracture,62901,INSURANCE,Generel,Mumbai,Average,10,2024-09
+P0871,Vikas,15.0,Female,Pediatrics,Dr. Mehta,2024-03-28,2024-04-05,Cancer,0,Insurance,Private,Aurangabad,Average,8,2024-03
+P0872,Anjali,46.0,Female,Oncology,Dr. Mehta,2024-06-06,2024-06-15,Heart Disease,999999,Insurance,General,Kolhapur,Good,9,2024-06
+P0873,Vikas,4.0,Male,Oncology,Dr. Mehta,2024-01-19,2024-01-28,Cancer,110011,Insurance,General,Solapur,Average,9,2024-01
+P0874,Amit,2.0,Female,Orthopedics,Dr. Mehta,2024-10-01,2024-10-10,Fracture,0,UPI ,General,Pune,Good,9,2024-10
+P0875,Anjali,46.0,Male,Neurology,Dr. Khan,2024-10-19,2024-10-20,Cancer,24314,UPI ,General,Nashik,Average,1,2024-10
+P0876,Sneha,46.0,Female,Oncology,Dr. Sharma,2024-03-18,2024-03-20,Cancer,999999,INSURANCE,semi,Mumbai,Good,2,2024-03
+P0877,Priya,13.0,Female,Orthopedics,Dr. Singh,2024-04-04,2024-04-12,Fracture,113287,Insurance,Semi,Mumbai,Poor,8,2024-04
+P0878,Pooja,46.0,Female,Cardiology,Dr. Khan,2024-02-24,2024-02-29,Migraine,999999,UPI ,General,Pune,Poor,5,2024-02
+P0879,Rohan,7.0,Female,Dermatology,Dr. Khan,2024-03-04,2024-03-11,Cancer,999999,Cash,semi,Aurangabad,Average,7,2024-03
+P0880,Sneha,74.0,Male,Cardiology,Dr. Mehta,2024-09-22,2024-09-26,Migraine,27351,UPI,Semi,Pune,Poor,4,2024-09
+P0881,Vikas,46.0,Male,Oncology,Dr. Mehta,2024-03-16,2024-03-22,Cancer,142443,Cash,Generel,Nashik,Average,6,2024-03
+P0882,Priya,46.0,Male,Cardiology,Dr. Mehta,2024-08-30,2024-09-02,Cancer,999999,UPI ,semi,Kolhapur,Poor,3,2024-08
+P0883,Kiran,45.0,Female,Cardiology,Dr. Patil,2024-01-31,2024-02-05,Cancer,0,INSURANCE,Generel,Kolhapur,Average,5,2024-01
+P0884,Rohan,46.0,Female,Cardiology,Dr. Mehta,2024-08-02,2024-08-09,Cancer,64321,Cash,Private,Kolhapur,Good,7,2024-08
+P0885,Amit,46.0,Male,Oncology,Dr. Mehta,2024-06-12,2024-06-13,Diabetes,999999,Insurance,Semi,Mumbai,Poor,1,2024-06
+P0886,Rahul,46.0,Male,Cardiology,Dr. Patil,2024-07-26,2024-08-03,Cancer,0,UPI,semi,Mumbai,Average,8,2024-07
+P0887,Anjali,46.0,Female,Pediatrics,Dr. Khan,2024-07-15,2024-07-17,Asthma,135273,Cashh,Private,Kolhapur,Average,2,2024-07
+P0888,Sneha,66.0,Male,Oncology,Dr. Singh,2024-02-19,2024-02-23,Cancer,999999,UPI ,Private,Pune,Average,4,2024-02
+P0889,Anjali,13.0,Male,Dermatology,Dr. Singh,2024-10-18,2024-10-20,Fracture,32841,UPI,Private,Aurangabad,Average,2,2024-10
+P0890,Priya,46.0,Male,Pediatrics,Dr. Khan,2024-04-11,2024-04-13,Cancer,98834,UPI,semi,Nashik,Good,2,2024-04
+P0891,Pooja,46.0,Female,Oncology,Dr. Rao,2024-10-11,2024-10-20,Fever,999999,UPI,semi,Nagpur,Good,9,2024-10
+P0892,Kiran,11.0,Female,Oncology,Dr. Mehta,2024-08-21,2024-08-30,Fracture,9060,INSURANCE,semi,Nagpur,Average,9,2024-08
+P0893,Pooja,46.0,Female,Dermatology,Dr. Patil,2024-10-24,2024-10-28,Skin Infection,0,INSURANCE,Semi,Nashik,Average,4,2024-10
+P0894,Vikas,46.0,Male,Pediatrics,Dr. Patil,2024-03-14,2024-03-17,Cancer,54830,INSURANCE,Semi,Mumbai,Average,3,2024-03
+P0895,Rohan,67.0,Male,Pediatrics,Dr. Singh,2024-07-19,2024-07-20,Skin Infection,92245,Cashh,semi,Pune,Good,1,2024-07
+P0896,Neha,46.0,Female,Orthopedics,Dr. Rao,2024-03-21,2024-03-23,Diabetes,0,Insurance,General,Kolhapur,Average,2,2024-03
+P0897,Sneha,12.0,Male,Cardiology,Dr. Patil,2024-10-01,2024-10-04,Cancer,999999,UPI ,Private,Nagpur,Good,3,2024-10
+P0898,Rohan,15.0,Female,Pediatrics,Dr. Patil,2024-05-29,2024-05-31,Cancer,0,UPI,semi,Kolhapur,Average,2,2024-05
+P0899,Sneha,46.0,Female,Pediatrics,Dr. Khan,2024-08-02,2024-08-12,Cancer,0,INSURANCE,General,Mumbai,Poor,10,2024-08
+P0900,Rahul,27.0,Male,Dermatology,Dr. Patil,2024-06-16,2024-06-25,Skin Infection,0,UPI,Semi,Nashik,Average,9,2024-06
+P0901,Priya,40.0,Female,Pediatrics,Dr. Mehta,2024-10-08,2024-10-15,Cancer,0,UPI ,Generel,Kolhapur,Average,7,2024-10
+P0902,Kiran,46.0,Female,Pediatrics,Dr. Rao,2024-04-20,2024-04-30,Diabetes,0,Cash,Semi,Aurangabad,Good,10,2024-04
+P0903,Kiran,46.0,Male,Pediatrics,Dr. Khan,2024-03-23,2024-03-25,Cancer,999999,INSURANCE,Semi,Nagpur,Average,2,2024-03
+P0904,Rohan,27.0,Male,Pediatrics,Dr. Rao,2024-05-30,2024-06-03,Cancer,97892,Cash,semi,Solapur,Average,4,2024-05
+P0905,Vikas,46.0,Male,Cardiology,Dr. Rao,2024-10-27,2024-11-06,Cancer,98484,Cash,semi,Pune,Good,10,2024-10
+P0906,Pooja,46.0,Male,Pediatrics,Dr. Khan,2024-05-26,2024-05-29,Cancer,0,Cash,Generel,Mumbai,Average,3,2024-05
+P0907,Rahul,46.0,Female,Pediatrics,Dr. Rao,2024-05-01,2024-05-09,Heart Disease,0,Cash,General,Nashik,Poor,8,2024-05
+P0908,Anjali,46.0,Female,Cardiology,Dr. Sharma,2024-07-15,2024-07-22,Cancer,999999,Cash,Semi,Nagpur,Average,7,2024-07
+P0909,Pooja,46.0,Female,Cardiology,Dr. Mehta,2024-04-20,2024-04-30,Cancer,999999,Cash,semi,Pune,Average,10,2024-04
+P0910,Amit,72.0,Female,Pediatrics,Dr. Patil,2024-09-07,2024-09-09,Fracture,0,UPI,Private,Nagpur,Average,2,2024-09
+P0911,Vikas,51.0,Male,Neurology,Dr. Sharma,2024-04-25,2024-05-04,Migraine,102569,Cashh,Semi,Kolhapur,Average,9,2024-04
+P0912,Anjali,46.0,Male,Neurology,Dr. Khan,2024-07-18,2024-07-26,Asthma,999999,Cash,semi,Nagpur,Average,8,2024-07
+P0913,Sneha,46.0,Female,Pediatrics,Dr. Mehta,2024-10-09,2024-10-14,Cancer,999999,Cashh,Semi,Pune,Average,5,2024-10
+P0914,Pooja,44.0,Female,Pediatrics,Dr. Sharma,2024-10-24,2024-11-03,Fracture,999999,INSURANCE,Semi,Solapur,Average,10,2024-10
+P0915,Amit,46.0,Male,Orthopedics,Dr. Patil,2024-04-11,2024-04-12,Migraine,999999,Cashh,semi,Kolhapur,Average,1,2024-04
+P0916,Rahul,46.0,Female,Dermatology,Dr. Khan,2024-10-12,2024-10-21,Cancer,0,Cashh,Private,Nagpur,Average,9,2024-10
+P0917,Rahul,46.0,Female,Neurology,Dr. Singh,2024-03-16,2024-03-24,Cancer,3796,UPI ,Semi,Aurangabad,Good,8,2024-03
+P0918,Priya,78.0,Male,Cardiology,Dr. Rao,2024-04-17,2024-04-24,Cancer,148936,Cashh,Generel,Pune,Average,7,2024-04
+P0919,Anjali,46.0,Male,Dermatology,Dr. Singh,2024-01-03,2024-01-10,Asthma,0,Cash,General,Nashik,Average,7,2024-01
+P0920,Priya,43.0,Female,Oncology,Dr. Patil,2024-08-02,2024-08-09,Skin Infection,111002,UPI,Semi,Nashik,Good,7,2024-08
+P0921,Rahul,53.0,Female,Cardiology,Dr. Mehta,2024-09-16,2024-09-18,Skin Infection,999999,UPI,Semi,Nagpur,Average,2,2024-09
+P0922,Rahul,46.0,Male,Orthopedics,Dr. Patil,2024-04-16,2024-04-25,Cancer,0,Cash,semi,Mumbai,Average,9,2024-04
+P0923,Rahul,57.0,Male,Orthopedics,Dr. Patil,2024-10-17,2024-10-18,Cancer,0,INSURANCE,semi,Pune,Poor,1,2024-10
+P0924,Rahul,46.0,Female,Orthopedics,Dr. Khan,2024-07-31,2024-08-01,Cancer,0,Insurance,Generel,Aurangabad,Average,1,2024-07
+P0925,Rahul,46.0,Male,Dermatology,Dr. Rao,2024-03-16,2024-03-25,Cancer,999999,UPI ,Private,Nagpur,Good,9,2024-03
+P0926,Neha,33.0,Female,Orthopedics,Dr. Khan,2024-09-04,2024-09-07,Cancer,0,INSURANCE,General,Pune,Average,3,2024-09
+P0927,Neha,63.0,Female,Cardiology,Dr. Khan,2024-08-29,2024-09-04,Heart Disease,87201,Cashh,Private,Pune,Average,6,2024-08
+P0928,Priya,41.0,Female,Cardiology,Dr. Singh,2024-06-23,2024-06-25,Diabetes,999999,UPI ,General,Solapur,Average,2,2024-06
+P0929,Rahul,36.0,Male,Neurology,Dr. Patil,2024-07-02,2024-07-04,Cancer,999999,UPI,General,Nagpur,Average,2,2024-07
+P0930,Sneha,62.0,Male,Neurology,Dr. Patil,2024-06-06,2024-06-13,Diabetes,147076,Cashh,semi,Aurangabad,Average,7,2024-06
+P0931,Amit,46.0,Male,Dermatology,Dr. Mehta,2024-07-11,2024-07-20,Cancer,0,UPI ,General,Nagpur,Average,9,2024-07
+P0932,Kiran,75.0,Male,Orthopedics,Dr. Mehta,2024-08-20,2024-08-29,Fracture,0,Cash,Generel,Solapur,Average,9,2024-08
+P0933,Rahul,46.0,Male,Pediatrics,Dr. Sharma,2024-06-06,2024-06-08,Migraine,999999,INSURANCE,Generel,Kolhapur,Average,2,2024-06
+P0934,Rohan,46.0,Female,Orthopedics,Dr. Patil,2024-06-26,2024-06-29,Cancer,0,UPI,General,Nagpur,Average,3,2024-06
+P0935,Vikas,66.0,Female,Neurology,Dr. Patil,2024-07-15,2024-07-23,Cancer,0,Insurance,General,Mumbai,Good,8,2024-07
+P0936,Sneha,46.0,Female,Orthopedics,Dr. Singh,2024-09-03,2024-09-07,Cancer,79749,Insurance,Private,Aurangabad,Poor,4,2024-09
+P0937,Kiran,46.0,Male,Orthopedics,Dr. Rao,2024-04-18,2024-04-20,Cancer,0,Insurance,General,Pune,Average,2,2024-04
+P0938,Sneha,63.0,Female,Dermatology,Dr. Sharma,2024-10-15,2024-10-22,Cancer,0,UPI ,Semi,Mumbai,Average,7,2024-10
+P0939,Neha,46.0,Male,Oncology,Dr. Rao,2024-07-10,2024-07-18,Asthma,0,Cashh,Private,Pune,Average,8,2024-07
+P0940,Vikas,63.0,Female,Neurology,Dr. Singh,2024-08-06,2024-08-11,Skin Infection,21519,UPI ,Semi,Aurangabad,Average,5,2024-08
+P0941,Rahul,46.0,Male,Cardiology,Dr. Singh,2024-04-09,2024-04-14,Skin Infection,38329,Cash,Private,Nashik,Good,5,2024-04
+P0942,Vikas,46.0,Female,Pediatrics,Dr. Mehta,2024-06-25,2024-06-26,Fever,77450,INSURANCE,Semi,Nashik,Average,1,2024-06
+P0943,Rohan,46.0,Female,Orthopedics,Dr. Khan,2024-06-12,2024-06-15,Cancer,0,Cash,General,Mumbai,Average,3,2024-06
+P0944,Rahul,46.0,Male,Oncology,Dr. Patil,2024-03-23,2024-03-24,Cancer,0,Cashh,semi,Kolhapur,Average,1,2024-03
+P0945,Priya,46.0,Female,Orthopedics,Dr. Patil,2024-04-03,2024-04-08,Migraine,0,UPI,General,Solapur,Good,5,2024-04
+P0946,Sneha,46.0,Male,Oncology,Dr. Rao,2024-09-13,2024-09-15,Cancer,12234,UPI,General,Mumbai,Average,2,2024-09
+P0947,Neha,46.0,Male,Dermatology,Dr. Mehta,2024-10-05,2024-10-08,Cancer,0,Cashh,Private,Solapur,Good,3,2024-10
+P0948,Rohan,46.0,Female,Orthopedics,Dr. Mehta,2024-02-25,2024-03-01,Cancer,0,Cash,semi,Mumbai,Poor,5,2024-02
+P0949,Priya,83.0,Male,Cardiology,Dr. Singh,2024-03-16,2024-03-20,Migraine,0,Insurance,Generel,Aurangabad,Good,4,2024-03
+P0950,Rohan,66.0,Female,Pediatrics,Dr. Rao,2024-07-29,2024-08-05,Skin Infection,999999,Cash,Private,Kolhapur,Good,7,2024-07
+P0242,Rahul,46.0,Male,Orthopedics,Dr. Singh,2024-10-05,2024-10-08,Diabetes,75683,Insurance,semi,Solapur,Poor,3,2024-10
+P0844,Anjali,56.0,Female,Pediatrics,Dr. Khan,2024-10-20,2024-10-26,Cancer,0,Cash,Semi,Solapur,Average,6,2024-10
+P0415,Rohan,46.0,Female,Oncology,Dr. Sharma,2024-04-21,2024-04-29,Cancer,0,UPI ,General,Aurangabad,Good,8,2024-04
+P0734,Anjali,64.0,Male,Dermatology,Dr. Singh,2024-01-22,2024-01-27,Diabetes,0,Cashh,Generel,Nagpur,Average,5,2024-01
+P0544,Kiran,79.0,Male,Pediatrics,Dr. Khan,2024-03-06,2024-03-15,Diabetes,999999,Cash,Private,Nagpur,Average,9,2024-03
+P0310,Amit,46.0,Female,Oncology,Dr. Mehta,2024-01-27,2024-01-30,Cancer,5247,UPI,Private,Pune,Average,3,2024-01
+P0867,Anjali,64.0,Male,Cardiology,Dr. Rao,2024-01-31,2024-02-07,Cancer,999999,Insurance,Semi,Kolhapur,Poor,7,2024-01
+P0851,Rahul,46.0,Female,Cardiology,Dr. Sharma,2024-07-18,2024-07-22,Cancer,999999,Cash,General,Pune,Average,4,2024-07
+P0036,Sneha,46.0,Male,Neurology,Dr. Rao,2024-05-01,2024-05-10,Cancer,999999,Cashh,General,Mumbai,Average,9,2024-05
+P0079,Rohan,46.0,Male,Dermatology,Dr. Patil,2024-05-10,2024-05-12,Cancer,98555,UPI ,Semi,Pune,Average,2,2024-05
+P0601,Rohan,46.0,Male,Neurology,Dr. Mehta,2024-07-30,2024-08-09,Diabetes,0,UPI ,Generel,Mumbai,Good,10,2024-07
+P0346,Amit,46.0,Male,Oncology,Dr. Mehta,2024-07-31,2024-08-05,Cancer,0,UPI ,Private,Nagpur,Average,5,2024-07
+P0192,Anjali,46.0,Male,Cardiology,Dr. Rao,2024-10-19,2024-10-25,Fever,0,Insurance,Private,Nashik,Average,6,2024-10
+P0105,Rahul,46.0,Male,Cardiology,Dr. Rao,2024-08-10,2024-08-17,Cancer,0,INSURANCE,Private,Aurangabad,Good,7,2024-08
+P0705,Kiran,79.0,Female,Orthopedics,Dr. Singh,2024-01-07,2024-01-10,Migraine,0,Insurance,Semi,Aurangabad,Average,3,2024-01
+P0684,Pooja,46.0,Female,Pediatrics,Dr. Khan,2024-03-25,2024-03-26,Cancer,0,Insurance,Private,Solapur,Average,1,2024-03
+P0102,Vikas,16.0,Female,Neurology,Dr. Patil,2024-01-02,2024-01-07,Cancer,131507,Cashh,Semi,Mumbai,Good,5,2024-01
+P0783,Rahul,47.0,Male,Cardiology,Dr. Khan,2024-03-01,2024-03-07,Cancer,0,UPI ,semi,Mumbai,Good,6,2024-03
+P0836,Priya,20.0,Female,Neurology,Dr. Sharma,2024-04-07,2024-04-12,Cancer,999999,UPI,Semi,Nagpur,Average,5,2024-04
+P0095,Anjali,19.0,Male,Orthopedics,Dr. Sharma,2024-10-21,2024-10-31,Asthma,0,UPI,General,Pune,Good,10,2024-10
