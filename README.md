@@ -21,20 +21,21 @@ This project focuses on analyzing hospital patient data to generate meaningful b
 ## 🛠️ Tools & Technologies
 
 - **Python**
-  - Pandas
-  - NumPy
+  - Pandas,Numpy,Matplotlib
 
 - **Microsoft Excel**
   - Data Cleaning
   - Removing Duplicates
   - Handling Missing Values
   - Data Validation
+  - Data Visualization
 
 - **Power BI**
   - Power Query
   - DAX Measures
   - Interactive Dashboard
   - Data Visualization
+  - Data trend
 
 ---
 
